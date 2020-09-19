@@ -4731,7 +4731,7 @@ Example: SX-32S</description>
 <parts>
 <part name="U$1" library="SparkFun-RF" library_urn="urn:adsk.eagle:library:531" deviceset="NRF24L01" device="SMD" package3d_urn="urn:adsk.eagle:package:39549/1"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C15" library="adafruit" deviceset="C-US" device="C1206" value="10uF"/>
+<part name="C2" library="adafruit" deviceset="C-US" device="C1206" value="10uF"/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -4739,18 +4739,18 @@ Example: SX-32S</description>
 <part name="L1" library="SparkFun-Coils" library_urn="urn:adsk.eagle:library:512" deviceset="INDUCTOR" device="-0402-3.9NH" package3d_urn="urn:adsk.eagle:package:37575/1" value="3.9NH"/>
 <part name="L2" library="SparkFun-Coils" library_urn="urn:adsk.eagle:library:512" deviceset="INDUCTOR" device="-0402-3.9NH" package3d_urn="urn:adsk.eagle:package:37575/1" value="8.2NH"/>
 <part name="L3" library="SparkFun-Coils" library_urn="urn:adsk.eagle:library:512" deviceset="INDUCTOR" device="-0402-3.9NH" package3d_urn="urn:adsk.eagle:package:37575/1" value="2.7NH"/>
-<part name="C17" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1.5p"/>
-<part name="C18" library="SparkFun-Passives" deviceset="CAP" device="0805" value="10p"/>
+<part name="C5" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1.5p"/>
+<part name="C6" library="SparkFun-Passives" deviceset="CAP" device="0805" value="10p"/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C9" library="SparkFun-Passives" deviceset="CAP" device="0805" value="2.2nF"/>
-<part name="C16" library="SparkFun-Passives" deviceset="CAP" device="0805" value="4.7p"/>
-<part name="C22" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF"/>
-<part name="C19" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1nF"/>
+<part name="C3" library="SparkFun-Passives" deviceset="CAP" device="0805" value="2.2nF"/>
+<part name="C4" library="SparkFun-Passives" deviceset="CAP" device="0805" value="4.7p"/>
+<part name="C7" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF"/>
+<part name="C1" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1nF"/>
 <part name="U$2" library="SparkFun-RF" library_urn="urn:adsk.eagle:library:531" deviceset="ANTENNA" device="2.4GHZ-6.5X2.2MM" package3d_urn="urn:adsk.eagle:package:39539/1" value="2.45GHz"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="2k"/>
 <part name="Y2" library="SparkFun-Clocks" library_urn="urn:adsk.eagle:library:511" deviceset="CRYSTAL" device="SMD-5X3.2-4PAD" package3d_urn="urn:adsk.eagle:package:37518/1"/>
-<part name="C1" library="SparkFun-Passives" deviceset="CAP" device="0805" value="22p"/>
-<part name="C2" library="SparkFun-Passives" deviceset="CAP" device="0805" value="22p"/>
+<part name="C8" library="SparkFun-Passives" deviceset="CAP" device="0805" value="22p"/>
+<part name="C9" library="SparkFun-Passives" deviceset="CAP" device="0805" value="22p"/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -4765,7 +4765,7 @@ Example: SX-32S</description>
 <instance part="GND1" gate="1" x="15.24" y="68.58" smashed="yes">
 <attribute name="VALUE" x="12.7" y="66.04" size="1.778" layer="96"/>
 </instance>
-<instance part="C15" gate="G$1" x="25.4" y="76.2" smashed="yes">
+<instance part="C2" gate="G$1" x="25.4" y="76.2" smashed="yes">
 <attribute name="NAME" x="26.416" y="76.835" size="1.778" layer="95"/>
 <attribute name="VALUE" x="26.416" y="72.009" size="1.778" layer="96"/>
 </instance>
@@ -4794,30 +4794,30 @@ Example: SX-32S</description>
 <attribute name="NAME" x="86.36" y="54.61" size="1.778" layer="95" font="vector" rot="R270"/>
 <attribute name="VALUE" x="81.28" y="54.61" size="1.778" layer="96" font="vector" rot="R270" align="top-left"/>
 </instance>
-<instance part="C17" gate="G$1" x="93.98" y="66.04" smashed="yes" rot="R90">
+<instance part="C5" gate="G$1" x="93.98" y="66.04" smashed="yes" rot="R90">
 <attribute name="NAME" x="91.059" y="67.564" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="96.139" y="67.564" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C18" gate="G$1" x="99.06" y="60.96" smashed="yes">
+<instance part="C6" gate="G$1" x="99.06" y="60.96" smashed="yes">
 <attribute name="NAME" x="100.584" y="63.881" size="1.778" layer="95"/>
 <attribute name="VALUE" x="100.584" y="58.801" size="1.778" layer="96"/>
 </instance>
 <instance part="GND9" gate="1" x="99.06" y="30.48" smashed="yes">
 <attribute name="VALUE" x="96.52" y="27.94" size="1.778" layer="96"/>
 </instance>
-<instance part="C9" gate="G$1" x="73.66" y="45.72" smashed="yes">
+<instance part="C3" gate="G$1" x="73.66" y="45.72" smashed="yes">
 <attribute name="NAME" x="75.184" y="48.641" size="1.778" layer="95"/>
 <attribute name="VALUE" x="75.184" y="43.561" size="1.778" layer="96"/>
 </instance>
-<instance part="C16" gate="G$1" x="83.82" y="45.72" smashed="yes">
+<instance part="C4" gate="G$1" x="83.82" y="45.72" smashed="yes">
 <attribute name="NAME" x="85.344" y="48.641" size="1.778" layer="95"/>
 <attribute name="VALUE" x="85.344" y="43.561" size="1.778" layer="96"/>
 </instance>
-<instance part="C22" gate="G$1" x="43.18" y="25.4" smashed="yes">
+<instance part="C7" gate="G$1" x="43.18" y="25.4" smashed="yes">
 <attribute name="NAME" x="44.704" y="28.321" size="1.778" layer="95"/>
 <attribute name="VALUE" x="44.704" y="23.241" size="1.778" layer="96"/>
 </instance>
-<instance part="C19" gate="G$1" x="15.24" y="73.66" smashed="yes">
+<instance part="C1" gate="G$1" x="15.24" y="73.66" smashed="yes">
 <attribute name="NAME" x="16.764" y="76.581" size="1.778" layer="95"/>
 <attribute name="VALUE" x="16.764" y="71.501" size="1.778" layer="96"/>
 </instance>
@@ -4833,11 +4833,11 @@ Example: SX-32S</description>
 <attribute name="NAME" x="60.96" y="27.432" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="60.96" y="23.368" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="C1" gate="G$1" x="55.88" y="17.78" smashed="yes">
+<instance part="C8" gate="G$1" x="55.88" y="17.78" smashed="yes">
 <attribute name="NAME" x="57.404" y="20.701" size="1.778" layer="95"/>
 <attribute name="VALUE" x="57.404" y="15.621" size="1.778" layer="96"/>
 </instance>
-<instance part="C2" gate="G$1" x="66.04" y="17.78" smashed="yes">
+<instance part="C9" gate="G$1" x="66.04" y="17.78" smashed="yes">
 <attribute name="NAME" x="67.564" y="20.701" size="1.778" layer="95"/>
 <attribute name="VALUE" x="67.564" y="15.621" size="1.778" layer="96"/>
 </instance>
@@ -4852,14 +4852,14 @@ Example: SX-32S</description>
 <segment>
 <wire x1="15.24" y1="71.12" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<pinref part="C15" gate="G$1" pin="2"/>
-<pinref part="C19" gate="G$1" pin="2"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C1" gate="G$1" pin="2"/>
 <junction x="15.24" y="71.12"/>
 </segment>
 <segment>
 <wire x1="43.18" y1="22.86" x2="43.18" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<pinref part="C22" gate="G$1" pin="2"/>
+<pinref part="C7" gate="G$1" pin="2"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="20.32" x2="43.18" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="20.32" x2="50.8" y2="20.32" width="0.1524" layer="91"/>
@@ -4894,17 +4894,17 @@ Example: SX-32S</description>
 <wire x1="73.66" y1="40.64" x2="73.66" y2="33.02" width="0.1524" layer="91"/>
 <junction x="73.66" y="40.64"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-<pinref part="C9" gate="G$1" pin="2"/>
-<pinref part="C16" gate="G$1" pin="2"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="C4" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="C18" gate="G$1" pin="2"/>
+<pinref part="C6" gate="G$1" pin="2"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="99.06" y1="58.42" x2="99.06" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C1" gate="G$1" pin="2"/>
-<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="55.88" y1="15.24" x2="66.04" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="55.88" y1="12.7" x2="55.88" y2="15.24" width="0.1524" layer="91"/>
@@ -4926,9 +4926,9 @@ Example: SX-32S</description>
 <wire x1="45.72" y1="68.58" x2="45.72" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="78.74" x2="43.18" y2="78.74" width="0.1524" layer="91"/>
 <junction x="43.18" y="78.74"/>
-<pinref part="C15" gate="G$1" pin="1"/>
+<pinref part="C2" gate="G$1" pin="1"/>
 <junction x="25.4" y="78.74"/>
-<pinref part="C19" gate="G$1" pin="1"/>
+<pinref part="C1" gate="G$1" pin="1"/>
 <junction x="15.24" y="78.74"/>
 <label x="2.54" y="78.74" size="1.778" layer="95"/>
 </segment>
@@ -5009,8 +5009,8 @@ Example: SX-32S</description>
 <junction x="83.82" y="53.34"/>
 <pinref part="L3" gate="G$1" pin="1"/>
 <wire x1="88.9" y1="53.34" x2="88.9" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="1"/>
-<pinref part="C16" gate="G$1" pin="1"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="C4" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -5018,7 +5018,7 @@ Example: SX-32S</description>
 <pinref part="U$1" gate="G$1" pin="DVDD"/>
 <wire x1="43.18" y1="30.48" x2="48.26" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="30.48" x2="48.26" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="C22" gate="G$1" pin="1"/>
+<pinref part="C7" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -5030,10 +5030,10 @@ Example: SX-32S</description>
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="C18" gate="G$1" pin="1"/>
+<pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="66.04" x2="104.14" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="SIGNAL"/>
-<pinref part="C17" gate="G$1" pin="2"/>
+<pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="96.52" y1="66.04" x2="99.06" y2="66.04" width="0.1524" layer="91"/>
 <junction x="99.06" y="66.04"/>
 </segment>
@@ -5045,7 +5045,7 @@ Example: SX-32S</description>
 <pinref part="R2" gate="G$1" pin="1"/>
 <junction x="55.88" y="33.02"/>
 <wire x1="55.88" y1="33.02" x2="55.88" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="C8" gate="G$1" pin="1"/>
 <pinref part="Y2" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="25.4" x2="55.88" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="25.4" x2="58.42" y2="25.4" width="0.1524" layer="91"/>
@@ -5060,7 +5060,7 @@ Example: SX-32S</description>
 <wire x1="66.04" y1="38.1" x2="66.04" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="33.02" x2="66.04" y2="25.4" width="0.1524" layer="91"/>
 <junction x="66.04" y="33.02"/>
-<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="C9" gate="G$1" pin="1"/>
 <pinref part="Y2" gate="G$1" pin="2"/>
 <wire x1="66.04" y1="25.4" x2="66.04" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="25.4" x2="66.04" y2="25.4" width="0.1524" layer="91"/>
@@ -5070,7 +5070,7 @@ Example: SX-32S</description>
 <net name="N$4" class="0">
 <segment>
 <pinref part="L1" gate="G$1" pin="2"/>
-<pinref part="C17" gate="G$1" pin="1"/>
+<pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="86.36" y1="66.04" x2="88.9" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
