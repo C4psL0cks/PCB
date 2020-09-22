@@ -350,7 +350,6 @@ UsedLibraryUrn="urn:adsk.eagle:library:530"
 UsedLibraryUrn="urn:adsk.eagle:library:532"
 UsedLibraryUrn="urn:adsk.eagle:library:533"
 UsedLibraryUrn="urn:adsk.eagle:library:531"
-UsedLibraryUrn="urn:adsk.eagle:library:534"
 UsedLibraryUrn="urn:adsk.eagle:library:133"
 UsedLibraryUrn="urn:adsk.eagle:library:535"
 UsedLibraryUrn="urn:adsk.eagle:library:365"
@@ -1298,11 +1297,20 @@ UsedLibrary="C:/Users/Maker'z/Documents/EAGLE/libraries/xilinx-xc9.lbr"
 UsedLibrary="C:/Users/Maker'z/Documents/EAGLE/libraries/xilinx-xcv.lbr"
 UsedLibrary="C:/Users/Maker'z/Documents/EAGLE/libraries/zetex.lbr"
 UsedLibrary="C:/Users/Maker'z/Documents/EAGLE/libraries/zilog.lbr"
+UsedLibrary="C:/Users/Maker'z/Documents/EAGLE/libraries/SOIC127P1032X265-24N.lbr"
 
 [Win_1]
+Type="Text Editor"
+Number=2
+File="C:/Users/Maker'z/AppData/Roaming/Eagle/lbr/adsk.eagle_library_534/SparkFun-Sensors.lbr.rpt"
+CursorPos="0 0"
+Font="Artifakt Element Book,-1,12,5,50,0,0,0,0,0"
+
+[Win_2]
 Type="Control Panel"
 Number=0
 
 [Desktop]
 Screen="3840 1080"
 Window="Win_1"
+Window="Win_2"
