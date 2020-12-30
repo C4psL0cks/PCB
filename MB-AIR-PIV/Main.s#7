@@ -12974,6 +12974,11 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="172.72" y1="27.94" x2="177.8" y2="27.94" width="0.1524" layer="91"/>
 <label x="175.26" y="27.94" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="SENSOR" gate="J$1" pin="2"/>
+<wire x1="58.42" y1="63.5" x2="55.88" y2="63.5" width="0.1524" layer="91"/>
+<label x="53.34" y="63.5" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="D5" class="0">
 <segment>
@@ -13081,13 +13086,6 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="175.26" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SENS_IN" class="0">
-<segment>
-<pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="213.36" y1="48.26" x2="223.52" y2="48.26" width="0.1524" layer="91"/>
-<label x="213.36" y="50.8" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="12V" class="0">
 <segment>
 <wire x1="27.94" y1="20.32" x2="35.56" y2="20.32" width="0.1524" layer="91"/>
@@ -13108,18 +13106,17 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="30.48" y1="66.04" x2="30.48" y2="68.58" width="0.1524" layer="91"/>
 <label x="30.48" y="68.58" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="213.36" y1="48.26" x2="223.52" y2="48.26" width="0.1524" layer="91"/>
+<label x="213.36" y="50.8" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="104.14" x2="45.72" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="UPLOAD" gate="G$1" pin="VPP"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="SENSOR" gate="J$1" pin="2"/>
-<wire x1="58.42" y1="63.5" x2="55.88" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
