@@ -17923,6 +17923,15 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="187.96" y1="-2.54" x2="198.12" y2="-2.54" width="0.1524" layer="91"/>
 <label x="198.12" y="-2.54" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="ECU" gate="G$1" pin="5"/>
+<wire x1="261.62" y1="121.92" x2="256.54" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="121.92" x2="256.54" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="SENSOR" gate="G$1" pin="5"/>
+<wire x1="256.54" y1="142.24" x2="261.62" y2="142.24" width="0.1524" layer="91"/>
+<label x="243.84" y="121.92" size="1.778" layer="95"/>
+<label x="243.84" y="142.24" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="TXD1" class="0">
 <segment>
@@ -18451,7 +18460,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <segment>
 <pinref part="SENSOR" gate="G$1" pin="3"/>
 <wire x1="261.62" y1="147.32" x2="243.84" y2="147.32" width="0.1524" layer="91"/>
-<label x="241.3" y="147.32" size="1.778" layer="95"/>
+<label x="243.84" y="147.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="12V" class="0">
@@ -18475,6 +18484,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="254" y1="132.08" x2="254" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="254" y1="152.4" x2="261.62" y2="152.4" width="0.1524" layer="91"/>
 <label x="243.84" y="132.08" size="1.778" layer="95"/>
+<label x="243.84" y="152.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -18539,15 +18549,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pinref part="ECU" gate="G$1" pin="4"/>
 <wire x1="261.62" y1="124.46" x2="246.38" y2="124.46" width="0.1524" layer="91"/>
 <label x="243.84" y="124.46" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="ECU" gate="G$1" pin="5"/>
-<wire x1="261.62" y1="121.92" x2="256.54" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="256.54" y1="121.92" x2="256.54" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="SENSOR" gate="G$1" pin="5"/>
-<wire x1="256.54" y1="142.24" x2="261.62" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="14" class="0">

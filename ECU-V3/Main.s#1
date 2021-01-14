@@ -17471,8 +17471,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="D4" library="diode" deviceset="DIODE-" device="DO-214AC" value="SZ105B"/>
 <part name="C18" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1"/>
 <part name="C13" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="JP3" library="SparkFun" deviceset="M05" device="PTH"/>
-<part name="JP4" library="SparkFun" deviceset="M05" device="PTH"/>
+<part name="SENSOR" library="SparkFun" deviceset="M05" device="PTH"/>
+<part name="ECU" library="SparkFun" deviceset="M05" device="PTH"/>
 <part name="JP1" library="SparkFun" deviceset="M07" device=""/>
 <part name="JP2" library="SparkFun" deviceset="M05" device="PTH"/>
 <part name="C8" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF"/>
@@ -17739,11 +17739,11 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <attribute name="NAME" x="191.516" y="35.687" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="191.516" y="40.767" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="JP3" gate="G$1" x="269.24" y="147.32" smashed="yes" rot="R180">
+<instance part="SENSOR" gate="G$1" x="269.24" y="147.32" smashed="yes" rot="R180">
 <attribute name="VALUE" x="271.78" y="157.48" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="271.78" y="138.938" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="JP4" gate="G$1" x="269.24" y="127" smashed="yes" rot="R180">
+<instance part="ECU" gate="G$1" x="269.24" y="127" smashed="yes" rot="R180">
 <attribute name="VALUE" x="271.78" y="137.16" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="271.78" y="118.618" size="1.778" layer="95" rot="R180"/>
 </instance>
@@ -17911,10 +17911,10 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <junction x="10.16" y="121.92"/>
 </segment>
 <segment>
-<pinref part="JP4" gate="G$1" pin="2"/>
+<pinref part="ECU" gate="G$1" pin="2"/>
 <wire x1="261.62" y1="129.54" x2="251.46" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="129.54" x2="251.46" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="G$1" pin="2"/>
+<pinref part="SENSOR" gate="G$1" pin="2"/>
 <wire x1="251.46" y1="149.86" x2="261.62" y2="149.86" width="0.1524" layer="91"/>
 <label x="243.84" y="129.54" size="1.778" layer="95"/>
 </segment>
@@ -18449,7 +18449,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <label x="284.48" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="G$1" pin="3"/>
+<pinref part="SENSOR" gate="G$1" pin="3"/>
 <wire x1="261.62" y1="147.32" x2="243.84" y2="147.32" width="0.1524" layer="91"/>
 <label x="241.3" y="147.32" size="1.778" layer="95"/>
 </segment>
@@ -18469,9 +18469,9 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <label x="2.54" y="142.24" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP4" gate="G$1" pin="1"/>
+<pinref part="ECU" gate="G$1" pin="1"/>
 <wire x1="261.62" y1="132.08" x2="254" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="G$1" pin="1"/>
+<pinref part="SENSOR" gate="G$1" pin="1"/>
 <wire x1="254" y1="132.08" x2="254" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="254" y1="152.4" x2="261.62" y2="152.4" width="0.1524" layer="91"/>
 <label x="243.84" y="132.08" size="1.778" layer="95"/>
@@ -18536,23 +18536,23 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <label x="360.68" y="106.68" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP4" gate="G$1" pin="4"/>
+<pinref part="ECU" gate="G$1" pin="4"/>
 <wire x1="261.62" y1="124.46" x2="246.38" y2="124.46" width="0.1524" layer="91"/>
 <label x="243.84" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="JP4" gate="G$1" pin="5"/>
+<pinref part="ECU" gate="G$1" pin="5"/>
 <wire x1="261.62" y1="121.92" x2="256.54" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="121.92" x2="256.54" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="G$1" pin="5"/>
+<pinref part="SENSOR" gate="G$1" pin="5"/>
 <wire x1="256.54" y1="142.24" x2="261.62" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="14" class="0">
 <segment>
-<pinref part="JP4" gate="G$1" pin="3"/>
+<pinref part="ECU" gate="G$1" pin="3"/>
 <wire x1="261.62" y1="127" x2="238.76" y2="127" width="0.1524" layer="91"/>
 <label x="243.84" y="127" size="1.778" layer="95"/>
 <pinref part="U1" gate="A" pin="VOUTA"/>
@@ -18567,7 +18567,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <label x="360.68" y="111.76" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="G$1" pin="4"/>
+<pinref part="SENSOR" gate="G$1" pin="4"/>
 <wire x1="261.62" y1="144.78" x2="246.38" y2="144.78" width="0.1524" layer="91"/>
 <label x="243.84" y="144.78" size="1.778" layer="95"/>
 </segment>
