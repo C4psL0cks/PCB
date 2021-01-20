@@ -18110,6 +18110,9 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="GND6" library="SparkFun" deviceset="GND" device=""/>
 <part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10k"/>
 <part name="R19" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10k"/>
+<part name="R20" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="20k"/>
+<part name="GND11" library="SparkFun" deviceset="GND" device=""/>
+<part name="D3" library="diode" deviceset="DIODE-" device="DO-214AC" value="SZ105B"/>
 </parts>
 <sheets>
 <sheet>
@@ -18418,6 +18421,17 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <instance part="R19" gate="G$1" x="139.7" y="127" smashed="yes">
 <attribute name="NAME" x="138.2014" y="128.27" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="135.382" y="128.27" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R20" gate="G$1" x="142.24" y="147.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="148.59" y="150.9014" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="148.59" y="148.082" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND11" gate="1" x="142.24" y="137.16" smashed="yes">
+<attribute name="VALUE" x="139.7" y="134.62" size="1.778" layer="96"/>
+</instance>
+<instance part="D3" gate="G$1" x="137.16" y="147.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="136.6774" y="157.48" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="139.4714" y="157.48" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -19166,6 +19180,19 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="287.02" y1="144.78" x2="256.54" y2="144.78" width="0.1524" layer="91"/>
 <label x="256.54" y="144.78" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R20" gate="G$1" pin="2"/>
+<wire x1="142.24" y1="152.4" x2="137.16" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="A" pin="CH1+"/>
+<wire x1="137.16" y1="152.4" x2="121.92" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="149.86" x2="149.86" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="152.4" x2="142.24" y2="152.4" width="0.1524" layer="91"/>
+<junction x="142.24" y="152.4"/>
+<label x="119.38" y="152.4" size="1.778" layer="95"/>
+<pinref part="D3" gate="G$1" pin="C"/>
+<wire x1="137.16" y1="149.86" x2="137.16" y2="152.4" width="0.1524" layer="91"/>
+<junction x="137.16" y="152.4"/>
+</segment>
 </net>
 <net name="12V" class="0">
 <segment>
@@ -19294,6 +19321,22 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="264.16" y1="147.32" x2="287.02" y2="147.32" width="0.1524" layer="91"/>
 <label x="256.54" y="127" size="1.778" layer="95"/>
 <label x="256.54" y="147.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R20" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="142.24" x2="137.16" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="142.24" x2="121.92" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="142.24" x2="142.24" y2="139.7" width="0.1524" layer="91"/>
+<junction x="142.24" y="142.24"/>
+<pinref part="GND11" gate="1" pin="GND"/>
+<pinref part="U$1" gate="A" pin="CH1-"/>
+<wire x1="149.86" y1="147.32" x2="147.32" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="147.32" x2="147.32" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="142.24" x2="142.24" y2="142.24" width="0.1524" layer="91"/>
+<label x="119.38" y="142.24" size="1.778" layer="95"/>
+<pinref part="D3" gate="G$1" pin="A"/>
+<wire x1="137.16" y1="142.24" x2="137.16" y2="144.78" width="0.1524" layer="91"/>
+<junction x="137.16" y="142.24"/>
 </segment>
 </net>
 <net name="SENSORINTEMP" class="0">
