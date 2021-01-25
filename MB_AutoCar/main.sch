@@ -186,87 +186,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="diy-modules">
-<description>&lt;b&gt;DIY Modules for Arduino, Raspberry Pi, CubieBoard etc.&lt;/b&gt;
-&lt;br&gt;&lt;br&gt;
-The library contains a list of symbols and footprints for popular, cheap and easy-to-use electronic modules.&lt;br&gt;
-The modules are intend to work with microprocessor-based platforms such as &lt;a href="http://arduino.cc"&gt;Arduino&lt;/a&gt;, &lt;a href="http://raspberrypi.org/"&gt;Raspberry Pi&lt;/a&gt;, &lt;a href="http://cubieboard.org/"&gt;CubieBoard&lt;/a&gt;, &lt;a href="http://beagleboard.org/"&gt;BeagleBone&lt;/a&gt; and many others. There are many manufacturers of the modules in the world. Almost all of them can be bought on &lt;a href="ebay.com"&gt;ebay.com&lt;/a&gt;.&lt;br&gt;
-&lt;br&gt;
-By using this library, you can design a PCB for devices created with usage of modules. Even if you do not need to create PCB design, you can also use the library to quickly document your work by drawing schematics of devices built by you.&lt;br&gt;
-&lt;br&gt;
-The latest version, examples, photos and much more can be found at: &lt;b&gt;&lt;a href="http://diymodules.org/eagle"&gt;diymodules.org/eagle&lt;/a&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;
-Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailto:eagle@diymodules.org"&gt;eagle@diymodules.org&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;br&gt;
-&lt;i&gt;Version: 1.8.0 (2017-Jul-02)&lt;/i&gt;&lt;br&gt;
-&lt;i&gt;Created by: Miroslaw Brudnowski&lt;/i&gt;&lt;br&gt;&lt;br&gt;
-&lt;i&gt;Released under the Creative Commons Attribution 4.0 International License: &lt;a href="http://creativecommons.org/licenses/by/4.0"&gt;http://creativecommons.org/licenses/by/4.0&lt;/a&gt;&lt;/i&gt;
-&lt;br&gt;&lt;br&gt;
-&lt;center&gt;
-&lt;a href="http://diymodules.org/eagle"&gt;&lt;img src="http://www.diymodules.org/img/diymodules-lbr-image.php?v=1.8.0" alt="DIYmodules.org"&gt;&lt;/a&gt;
-&lt;/center&gt;</description>
-<packages>
-<package name="DC-DC-STEP-DOWN-LM2596">
-<description>&lt;b&gt;DC/DC Step-Down Regulator&lt;/b&gt; based on &lt;b&gt;LM2596-ADJ&lt;/b&gt; chip</description>
-<wire x1="-24.13" y1="10.16" x2="20.066" y2="10.16" width="0.127" layer="21"/>
-<wire x1="20.066" y1="10.16" x2="20.066" y2="-12.7" width="0.127" layer="21"/>
-<wire x1="20.066" y1="-12.7" x2="-24.13" y2="-12.7" width="0.127" layer="21"/>
-<wire x1="-24.13" y1="-12.7" x2="-24.13" y2="10.16" width="0.127" layer="21"/>
-<pad name="IN+" x="-22.352" y="8.636" drill="1.5" diameter="2.5" shape="square"/>
-<pad name="IN-" x="-22.352" y="-11.176" drill="1.5" diameter="2.5" shape="square"/>
-<pad name="OUT-" x="18.542" y="-11.176" drill="1.5" diameter="2.5" shape="square"/>
-<pad name="OUT+" x="18.542" y="8.636" drill="1.5" diameter="2.5" shape="square"/>
-<text x="0" y="11.43" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-12.7" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-<text x="-22.225" y="-1.27" size="1.778" layer="21" rot="R90" align="center">IN</text>
-<text x="18.415" y="-1.27" size="1.778" layer="21" rot="R90" align="center">OUT</text>
-<wire x1="18.415" y1="5.715" x2="18.415" y2="4.445" width="0.254" layer="21"/>
-<wire x1="17.78" y1="5.08" x2="19.05" y2="5.08" width="0.254" layer="21"/>
-<wire x1="-22.225" y1="-6.985" x2="-22.225" y2="-5.715" width="0.254" layer="21"/>
-<wire x1="18.415" y1="-8.255" x2="18.415" y2="-6.985" width="0.254" layer="21"/>
-<wire x1="-22.225" y1="4.445" x2="-22.225" y2="3.175" width="0.254" layer="21"/>
-<wire x1="-22.86" y1="3.81" x2="-21.59" y2="3.81" width="0.254" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="DC-DC-STEP-DOWN-LM2596">
-<description>&lt;b&gt;DC/DC Step-Down Regulator&lt;/b&gt; based on &lt;b&gt;LM2596-ADJ&lt;/b&gt; chip</description>
-<pin name="IN+" x="-17.78" y="5.08" visible="pin" length="middle"/>
-<pin name="IN-" x="-17.78" y="-5.08" visible="pin" length="middle"/>
-<pin name="OUT+" x="17.78" y="5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="OUT-" x="17.78" y="-5.08" visible="pin" length="middle" rot="R180"/>
-<wire x1="-12.7" y1="10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
-<wire x1="12.7" y1="10.16" x2="12.7" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-10.16" x2="-12.7" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
-<text x="-12.7" y="15.24" size="1.778" layer="95">&gt;NAME</text>
-<text x="-12.7" y="12.7" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="DC-DC-STEP-DOWN-LM2596">
-<description>&lt;b&gt;DC/DC Step-Down Regulator&lt;/b&gt; based on &lt;b&gt;LM2596-ADJ&lt;/b&gt; chip
-&lt;p&gt;&lt;b&gt;LM2596&lt;/b&gt; datasheet available here:&lt;br /&gt;&lt;a href="http://www.ti.com/lit/ds/symlink/lm2596.pdf"&gt;http://www.ti.com/lit/ds/symlink/lm2596.pdf&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;&lt;a href="http://www.ebay.com/sch/lm2596+power+regulator"&gt;Click here to find device on ebay.com&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="photo" src="http://www.diymodules.org/img/device-photo.php?name=DC-DC-STEP-DOWN-LM2596"&gt;&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="DC-DC-STEP-DOWN-LM2596" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DC-DC-STEP-DOWN-LM2596">
-<connects>
-<connect gate="G$1" pin="IN+" pad="IN+"/>
-<connect gate="G$1" pin="IN-" pad="IN-"/>
-<connect gate="G$1" pin="OUT+" pad="OUT+"/>
-<connect gate="G$1" pin="OUT-" pad="OUT-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-PowerSymbols" urn="urn:adsk.eagle:library:530">
 <description>&lt;h3&gt;SparkFun Power Symbols&lt;/h3&gt;
 This library contains power, ground, and voltage-supply symbols.
@@ -11514,6 +11433,87 @@ We've spent an enormous amount of time creating and checking these footprints an
 </deviceset>
 </devicesets>
 </library>
+<library name="diy-modules">
+<description>&lt;b&gt;DIY Modules for Arduino, Raspberry Pi, CubieBoard etc.&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;
+The library contains a list of symbols and footprints for popular, cheap and easy-to-use electronic modules.&lt;br&gt;
+The modules are intend to work with microprocessor-based platforms such as &lt;a href="http://arduino.cc"&gt;Arduino&lt;/a&gt;, &lt;a href="http://raspberrypi.org/"&gt;Raspberry Pi&lt;/a&gt;, &lt;a href="http://cubieboard.org/"&gt;CubieBoard&lt;/a&gt;, &lt;a href="http://beagleboard.org/"&gt;BeagleBone&lt;/a&gt; and many others. There are many manufacturers of the modules in the world. Almost all of them can be bought on &lt;a href="ebay.com"&gt;ebay.com&lt;/a&gt;.&lt;br&gt;
+&lt;br&gt;
+By using this library, you can design a PCB for devices created with usage of modules. Even if you do not need to create PCB design, you can also use the library to quickly document your work by drawing schematics of devices built by you.&lt;br&gt;
+&lt;br&gt;
+The latest version, examples, photos and much more can be found at: &lt;b&gt;&lt;a href="http://diymodules.org/eagle"&gt;diymodules.org/eagle&lt;/a&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailto:eagle@diymodules.org"&gt;eagle@diymodules.org&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;br&gt;
+&lt;i&gt;Version: 1.8.0 (2017-Jul-02)&lt;/i&gt;&lt;br&gt;
+&lt;i&gt;Created by: Miroslaw Brudnowski&lt;/i&gt;&lt;br&gt;&lt;br&gt;
+&lt;i&gt;Released under the Creative Commons Attribution 4.0 International License: &lt;a href="http://creativecommons.org/licenses/by/4.0"&gt;http://creativecommons.org/licenses/by/4.0&lt;/a&gt;&lt;/i&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;center&gt;
+&lt;a href="http://diymodules.org/eagle"&gt;&lt;img src="http://www.diymodules.org/img/diymodules-lbr-image.php?v=1.8.0" alt="DIYmodules.org"&gt;&lt;/a&gt;
+&lt;/center&gt;</description>
+<packages>
+<package name="DC-DC-STEP-DOWN-LM2596">
+<description>&lt;b&gt;DC/DC Step-Down Regulator&lt;/b&gt; based on &lt;b&gt;LM2596-ADJ&lt;/b&gt; chip</description>
+<wire x1="-24.13" y1="10.16" x2="20.066" y2="10.16" width="0.127" layer="21"/>
+<wire x1="20.066" y1="10.16" x2="20.066" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="20.066" y1="-11.43" x2="-24.13" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="-24.13" y1="-11.43" x2="-24.13" y2="10.16" width="0.127" layer="21"/>
+<pad name="IN+" x="-22.098" y="8.382" drill="1.5" diameter="2.5" shape="square"/>
+<pad name="IN-" x="-22.098" y="-8.89" drill="1.5" diameter="2.5" shape="square"/>
+<pad name="OUT-" x="17.78" y="-8.89" drill="1.5" diameter="2.5" shape="square"/>
+<pad name="OUT+" x="17.78" y="8.382" drill="1.5" diameter="2.5" shape="square" rot="R180"/>
+<text x="0" y="11.43" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-12.7" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<text x="-22.225" y="0" size="1.778" layer="21" rot="R90" align="center">IN</text>
+<text x="18.415" y="0" size="1.778" layer="21" rot="R90" align="center">OUT</text>
+<wire x1="18.415" y1="5.715" x2="18.415" y2="4.445" width="0.254" layer="21"/>
+<wire x1="17.78" y1="5.08" x2="19.05" y2="5.08" width="0.254" layer="21"/>
+<wire x1="-22.225" y1="-6.985" x2="-22.225" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="18.415" y1="-6.985" x2="18.415" y2="-5.715" width="0.254" layer="21"/>
+<wire x1="-22.225" y1="5.715" x2="-22.225" y2="4.445" width="0.254" layer="21"/>
+<wire x1="-22.86" y1="5.08" x2="-21.59" y2="5.08" width="0.254" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="DC-DC-STEP-DOWN-LM2596">
+<description>&lt;b&gt;DC/DC Step-Down Regulator&lt;/b&gt; based on &lt;b&gt;LM2596-ADJ&lt;/b&gt; chip</description>
+<pin name="IN+" x="-17.78" y="5.08" visible="pin" length="middle"/>
+<pin name="IN-" x="-17.78" y="-5.08" visible="pin" length="middle"/>
+<pin name="OUT+" x="17.78" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="OUT-" x="17.78" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<wire x1="-12.7" y1="10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="12.7" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-10.16" x2="-12.7" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<text x="-12.7" y="15.24" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.7" y="12.7" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DC-DC-STEP-DOWN-LM2596">
+<description>&lt;b&gt;DC/DC Step-Down Regulator&lt;/b&gt; based on &lt;b&gt;LM2596-ADJ&lt;/b&gt; chip
+&lt;p&gt;&lt;b&gt;LM2596&lt;/b&gt; datasheet available here:&lt;br /&gt;&lt;a href="http://www.ti.com/lit/ds/symlink/lm2596.pdf"&gt;http://www.ti.com/lit/ds/symlink/lm2596.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href="http://www.ebay.com/sch/lm2596+power+regulator"&gt;Click here to find device on ebay.com&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="photo" src="http://www.diymodules.org/img/device-photo.php?name=DC-DC-STEP-DOWN-LM2596"&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DC-DC-STEP-DOWN-LM2596" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DC-DC-STEP-DOWN-LM2596">
+<connects>
+<connect gate="G$1" pin="IN+" pad="IN+"/>
+<connect gate="G$1" pin="IN-" pad="IN-"/>
+<connect gate="G$1" pin="OUT+" pad="OUT+"/>
+<connect gate="G$1" pin="OUT-" pad="OUT-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11524,7 +11524,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 </class>
 </classes>
 <parts>
-<part name="U$2" library="diy-modules" deviceset="DC-DC-STEP-DOWN-LM2596" device=""/>
 <part name="OK1" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="PC817" device="" package3d_urn="urn:adsk.eagle:package:21938/1"/>
 <part name="Q1" library="transistor-npn" library_urn="urn:adsk.eagle:library:398" deviceset="BC447*" device="" package3d_urn="urn:adsk.eagle:package:28989/2" value="PN2222"/>
 <part name="D1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148" package3d_urn="urn:adsk.eagle:package:6240748/1" value="1N4148"/>
@@ -11592,6 +11591,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="VIN1" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1" value="-"/>
 <part name="PWMS2" library="SparkFun-Connectors" deviceset="M02" device="PTH3" value="Out1"/>
 <part name="U1" library="SparkFun-Boards" deviceset="ARDUINO-MEGA" device="FULL"/>
+<part name="U$2" library="diy-modules" deviceset="DC-DC-STEP-DOWN-LM2596" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11614,10 +11614,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="264.16" y1="203.2" x2="236.22" y2="203.2" width="0.1524" layer="96"/>
 </plain>
 <instances>
-<instance part="U$2" gate="G$1" x="88.9" y="12.7" smashed="yes">
-<attribute name="NAME" x="76.2" y="27.94" size="1.778" layer="95"/>
-<attribute name="VALUE" x="76.2" y="25.4" size="1.778" layer="96"/>
-</instance>
 <instance part="OK1" gate="A" x="53.34" y="147.32" smashed="yes">
 <attribute name="NAME" x="46.355" y="153.035" size="1.778" layer="95"/>
 <attribute name="VALUE" x="46.355" y="139.7" size="1.778" layer="96"/>
@@ -11896,6 +11892,10 @@ We've spent an enormous amount of time creating and checking these footprints an
 <attribute name="NAME" x="165.1" y="115.062" size="1.778" layer="95"/>
 <attribute name="VALUE" x="165.1" y="5.08" size="1.778" layer="96"/>
 </instance>
+<instance part="U$2" gate="G$1" x="88.9" y="12.7" smashed="yes">
+<attribute name="NAME" x="76.2" y="27.94" size="1.778" layer="95"/>
+<attribute name="VALUE" x="76.2" y="25.4" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -11965,9 +11965,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <label x="91.44" y="101.6" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="OUT-"/>
 <wire x1="106.68" y1="7.62" x2="114.3" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
+<pinref part="U$2" gate="G$1" pin="OUT-"/>
 </segment>
 <segment>
 <wire x1="160.02" y1="10.16" x2="160.02" y2="12.7" width="0.1524" layer="91"/>
@@ -12467,18 +12467,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="U1" gate="G$1" pin="3"/>
 </segment>
 </net>
-<net name="INT" class="0">
-<segment>
-<pinref part="CAN-BUS" gate="G$1" pin="7"/>
-<wire x1="88.9" y1="114.3" x2="91.44" y2="114.3" width="0.1524" layer="91"/>
-<label x="91.44" y="114.3" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="200.66" y1="93.98" x2="203.2" y2="93.98" width="0.1524" layer="91"/>
-<label x="203.2" y="93.98" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="20(SDA)"/>
-</segment>
-</net>
 <net name="MISO" class="0">
 <segment>
 <pinref part="CAN-BUS" gate="G$1" pin="5"/>
@@ -12498,16 +12486,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="U1" gate="G$1" pin="VIN"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="OUT+"/>
 <wire x1="106.68" y1="17.78" x2="114.3" y2="17.78" width="0.1524" layer="91"/>
 <label x="114.3" y="17.78" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$23" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="IN+"/>
-<pinref part="F1" gate="G$1" pin="2"/>
-<wire x1="68.58" y1="17.78" x2="71.12" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="OUT+"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -12519,9 +12500,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 </net>
 <net name="N$25" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="IN-"/>
 <pinref part="F2" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="7.62" x2="71.12" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="IN-"/>
 </segment>
 </net>
 <net name="N$26" class="0">
@@ -12780,6 +12761,14 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="ENCODER" gate="G$1" pin="14"/>
 <wire x1="104.14" y1="48.26" x2="101.6" y2="48.26" width="0.1524" layer="91"/>
 <label x="99.06" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="F1" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="17.78" x2="71.12" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="IN+"/>
+<label x="71.12" y="20.32" size="1.778" layer="95"/>
+<wire x1="71.12" y1="17.78" x2="71.12" y2="20.32" width="0.1524" layer="91"/>
+<junction x="71.12" y="17.78"/>
 </segment>
 </net>
 <net name="N$2" class="0">
