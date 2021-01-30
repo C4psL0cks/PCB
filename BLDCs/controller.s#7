@@ -14648,7 +14648,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="T1" library="con-dinkle" deviceset="ST02" device="-3.5MM" value="12VDC"/>
 <part name="S1" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD-1101NE" value="MCU_RST"/>
 <part name="C13" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="IC4" library="v-reg-3" deviceset="LM2576" device="S"/>
+<part name="IC4" library="v-reg-3" deviceset="LM2576" device="S" value="LM2576HVT-5V"/>
 </parts>
 <sheets>
 <sheet>
