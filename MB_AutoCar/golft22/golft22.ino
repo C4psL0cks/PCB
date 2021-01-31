@@ -68,19 +68,24 @@ void loop()
   //TRUN
   Setpoint = constrain(Setpoint, lower , upper);
   Setpoint = map(Setpoint, lower , upper, 80, 980);
+  
   //speed
   CH1 = constrain(CH1, lower , upper);
   CH1 = map(CH1, 900 , upper, 0, 200);
   analogWrite(PWMSPEED, CH1);
+  
   //For,Back
   CH2 = map(CH2, 950 , 1900, 1, 0);
   digitalWrite(FR, CH2);
+  
   //ON,OFF car
   CH3 = map(CH3, 950 , 1900, 1, 0);
-  digitalWrite(OF, CH3);
+  digitalWrite(OF, CH3); // relay 1
+  
   //BREAK
   SW = digitalRead (limitSW);
   Serial.println(SW);
+  
   if (SW == 0 && CH4 < 1600 )
   {
     analogWrite(PIN_OUTPUT2, 0);

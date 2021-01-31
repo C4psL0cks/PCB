@@ -12368,15 +12368,6 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 <pinref part="U1" gate="G$1" pin="53"/>
 </segment>
 </net>
-<net name="D7" class="0">
-<segment>
-<pinref part="U$1" gate="A" pin="~LDAC"/>
-<wire x1="30.48" y1="55.88" x2="17.78" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="17.78" y1="60.96" x2="17.78" y2="55.88" width="0.1524" layer="91"/>
-<label x="25.4" y="55.88" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="!SHDN" class="0">
 <segment>
 <pinref part="U$1" gate="A" pin="~SHDN"/>
@@ -12867,6 +12858,20 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 <pinref part="PWMS1" gate="G$1" pin="2"/>
 <wire x1="266.7" y1="182.88" x2="256.54" y2="182.88" width="0.1524" layer="91"/>
 <junction x="256.54" y="182.88"/>
+</segment>
+</net>
+<net name="D48" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="48"/>
+<wire x1="200.66" y1="22.86" x2="203.2" y2="22.86" width="0.1524" layer="91"/>
+<label x="203.2" y="22.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="A" pin="~LDAC"/>
+<wire x1="30.48" y1="55.88" x2="17.78" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="17.78" y1="60.96" x2="17.78" y2="55.88" width="0.1524" layer="91"/>
+<label x="25.4" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
