@@ -12236,16 +12236,11 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 <segment>
 <pinref part="K4" gate="2" pin="S"/>
 <pinref part="SPEED" gate="-1" pin="KL"/>
-<wire x1="243.84" y1="154.94" x2="254" y2="154.94" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="K4" gate="2" pin="O"/>
-<pinref part="SPEED" gate="-3" pin="KL"/>
-<wire x1="243.84" y1="165.1" x2="251.46" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="165.1" x2="254" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="165.1" x2="251.46" y2="167.64" width="0.1524" layer="91"/>
-<junction x="251.46" y="165.1"/>
-<label x="251.46" y="170.18" size="1.778" layer="95"/>
+<wire x1="243.84" y1="154.94" x2="248.92" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="154.94" x2="254" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="154.94" x2="251.46" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="154.94" x2="251.46" y2="149.86" width="0.1524" layer="91"/>
+<label x="251.46" y="149.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D13PWM" class="0">
@@ -12530,6 +12525,13 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 <pinref part="U1" gate="G$1" pin="21(SCL)"/>
 <wire x1="177.8" y1="99.06" x2="180.34" y2="99.06" width="0.1524" layer="91"/>
 <label x="180.34" y="99.06" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="K4" gate="2" pin="O"/>
+<pinref part="SPEED" gate="-3" pin="KL"/>
+<wire x1="243.84" y1="165.1" x2="254" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
