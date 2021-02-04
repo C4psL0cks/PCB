@@ -48,9 +48,7 @@ void setup()
   pinMode(42, INPUT_PULLUP);
   pinMode(44, INPUT_PULLUP);
   pinMode(46, INPUT_PULLUP);
-  myPID.SetMode(AUTOMATIC);
-  myPID.SetSampleTime(1);
-  myPID.SetOutputLimits(-150, 150);
+ 
   Serial.begin(19200);
   lower = 1000;
   upper = 1900;

@@ -21,7 +21,4 @@ void setup() {
 
 void loop() {
 
-  Serial.println(digitalRead(SN_BREAK));
-  //  analogWrite(PWM_SPEED, 255);
-
 }
