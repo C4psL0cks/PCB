@@ -2085,6 +2085,10 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="32" x="-161.29" y="8.89" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="3.81" y="135.85" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
+<element name="ENCODER1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X15" package3d_urn="urn:adsk.eagle:package:38190/1" value="" x="2.54" y="-2.54" smashed="yes">
+<attribute name="NAME" x="1.27" y="-1.143" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="1.27" y="-4.572" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -2877,6 +2881,51 @@ design rules under a new name.</description>
 <wire x1="11.43" y1="8.95" x2="11.43" y2="8.89" width="0.762" layer="16"/>
 <wire x1="11.43" y1="8.89" x2="20.32" y2="8.89" width="0.762" layer="16"/>
 <wire x1="20.32" y1="8.89" x2="20.828" y2="9.398" width="0.762" layer="16"/>
+</signal>
+<signal name="N$1">
+<contactref element="ENCODER1" pad="1"/>
+</signal>
+<signal name="N$18">
+<contactref element="ENCODER1" pad="15"/>
+</signal>
+<signal name="N$19">
+<contactref element="ENCODER1" pad="14"/>
+</signal>
+<signal name="N$21">
+<contactref element="ENCODER1" pad="13"/>
+</signal>
+<signal name="N$23">
+<contactref element="ENCODER1" pad="12"/>
+</signal>
+<signal name="N$27">
+<contactref element="ENCODER1" pad="11"/>
+</signal>
+<signal name="N$28">
+<contactref element="ENCODER1" pad="10"/>
+</signal>
+<signal name="N$29">
+<contactref element="ENCODER1" pad="9"/>
+</signal>
+<signal name="N$30">
+<contactref element="ENCODER1" pad="8"/>
+</signal>
+<signal name="N$31">
+<contactref element="ENCODER1" pad="7"/>
+</signal>
+<signal name="N$32">
+<contactref element="ENCODER1" pad="6"/>
+</signal>
+<signal name="N$33">
+<contactref element="ENCODER1" pad="5"/>
+</signal>
+<signal name="N$34">
+<contactref element="ENCODER1" pad="4"/>
+</signal>
+<signal name="N$35">
+<contactref element="ENCODER1" pad="3"/>
+</signal>
+<signal name="N$36">
+<contactref element="ENCODER1" pad="2"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
