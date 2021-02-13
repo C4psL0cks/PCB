@@ -11830,14 +11830,14 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 </net>
 <net name="SCK" class="0">
 <segment>
-<pinref part="CAN-BUS" gate="G$1" pin="6"/>
-<wire x1="71.12" y1="104.14" x2="73.66" y2="104.14" width="0.1524" layer="91"/>
-<label x="73.66" y="104.14" size="1.778" layer="95"/>
-</segment>
-<segment>
 <wire x1="177.8" y1="20.32" x2="180.34" y2="20.32" width="0.1524" layer="91"/>
 <label x="180.34" y="20.32" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="52"/>
+</segment>
+<segment>
+<pinref part="CAN-BUS" gate="G$1" pin="6"/>
+<wire x1="71.12" y1="104.14" x2="73.66" y2="104.14" width="0.1524" layer="91"/>
+<label x="73.66" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INS" class="0">
@@ -12065,9 +12065,9 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 <pinref part="U1" gate="G$1" pin="53"/>
 </segment>
 <segment>
-<pinref part="CAN-BUS" gate="G$1" pin="4"/>
-<wire x1="71.12" y1="99.06" x2="73.66" y2="99.06" width="0.1524" layer="91"/>
-<label x="73.66" y="99.06" size="1.778" layer="95"/>
+<pinref part="CAN-BUS" gate="G$1" pin="5"/>
+<wire x1="71.12" y1="101.6" x2="73.66" y2="101.6" width="0.1524" layer="91"/>
+<label x="73.66" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -12077,9 +12077,9 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 <pinref part="U1" gate="G$1" pin="51"/>
 </segment>
 <segment>
-<pinref part="CAN-BUS" gate="G$1" pin="3"/>
-<wire x1="71.12" y1="96.52" x2="73.66" y2="96.52" width="0.1524" layer="91"/>
-<label x="73.66" y="96.52" size="1.778" layer="95"/>
+<pinref part="CAN-BUS" gate="G$1" pin="4"/>
+<wire x1="71.12" y1="99.06" x2="73.66" y2="99.06" width="0.1524" layer="91"/>
+<label x="73.66" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IN4" class="0">
@@ -12129,14 +12129,14 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 </net>
 <net name="MISO" class="0">
 <segment>
-<pinref part="CAN-BUS" gate="G$1" pin="5"/>
-<wire x1="71.12" y1="101.6" x2="73.66" y2="101.6" width="0.1524" layer="91"/>
-<label x="73.66" y="101.6" size="1.778" layer="95"/>
-</segment>
-<segment>
 <wire x1="177.8" y1="25.4" x2="180.34" y2="25.4" width="0.1524" layer="91"/>
 <label x="180.34" y="25.4" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="50"/>
+</segment>
+<segment>
+<pinref part="CAN-BUS" gate="G$1" pin="3"/>
+<wire x1="71.12" y1="96.52" x2="73.66" y2="96.52" width="0.1524" layer="91"/>
+<label x="73.66" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VINS" class="0">
@@ -12232,11 +12232,6 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 <wire x1="137.16" y1="30.48" x2="132.08" y2="30.48" width="0.1524" layer="91"/>
 <label x="127" y="30.48" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="12"/>
-</segment>
-<segment>
-<pinref part="K4" gate="2" pin="S"/>
-<pinref part="SPEED" gate="-1" pin="KL"/>
-<wire x1="243.84" y1="154.94" x2="254" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="K4" gate="2" pin="O"/>
@@ -12530,6 +12525,13 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 <pinref part="U1" gate="G$1" pin="21(SCL)"/>
 <wire x1="177.8" y1="99.06" x2="180.34" y2="99.06" width="0.1524" layer="91"/>
 <label x="180.34" y="99.06" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="K4" gate="2" pin="S"/>
+<pinref part="SPEED" gate="-1" pin="KL"/>
+<wire x1="243.84" y1="154.94" x2="254" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
