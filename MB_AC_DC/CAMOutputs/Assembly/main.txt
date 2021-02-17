@@ -1,0 +1,8 @@
+Partlist exported from C:/Users/Maker'z/Documents/EAGLE/projects/EAGLE-PCB/MB_AC_DC/main.sch at 17/2/2564 14:21
+
+Qty Value Device                Package                  Parts          Description                   CATEGORY  MANUFACTURER MF MPN     OC_FARNELL OC_NEWARK OPERATING_TEMP PART_STATUS POPULARITY ROHS_COMPLIANT SERIES SUB-CATEGORY THERMALLOSS TYPE VALUE VOLTAGE_RATING
+1         C-POL_RADIAL-25MM-DIA CAPPRD550W110D1250H2500B C1             Capacitor Polarised - Generic Capacitor                                                                                                                                                            
+4         DIODEDO-1N4148        DO-1N4148                D1, D2, D3, D4 Diode                                                                                                                                                                                              
+1         LED5MM                LED5MM                   LED1           LED                                                                                                                                                                                                
+2         W237-102              W237-102                 X1, X2         WAGO SCREW CLAMP                                        237-102 unknown    70K9898                              32                                                                                 
+1   10k   R-US_0204/7           0204/7                   R1             RESISTOR, American symbol                                                                                                                                                                          
