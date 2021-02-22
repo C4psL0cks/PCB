@@ -8348,7 +8348,7 @@ Allows current flow in one direction, but allows reverse flow when above breakdo
 <part name="R25" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10k"/>
 <part name="R26" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10k"/>
 <part name="C13" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C11" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1nF"/>
+<part name="C11" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100nF"/>
 <part name="R28" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10k"/>
 <part name="R29" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10k"/>
 <part name="R30" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="1k"/>
