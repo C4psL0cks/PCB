@@ -11929,17 +11929,10 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 <label x="132.08" y="48.26" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="5"/>
 </segment>
-</net>
-<net name="IN2" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="154.94" x2="2.54" y2="154.94" width="0.1524" layer="91"/>
 <label x="2.54" y="157.48" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="137.16" y1="50.8" x2="132.08" y2="50.8" width="0.1524" layer="91"/>
-<label x="132.08" y="50.8" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="N$4" class="0">
