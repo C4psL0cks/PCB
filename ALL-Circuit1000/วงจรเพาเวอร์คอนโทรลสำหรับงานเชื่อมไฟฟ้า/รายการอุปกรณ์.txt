@@ -1,0 +1,23 @@
+Part quantity 
+TPDV640 alternistor (or similar) 1 
+BTB06-600T triac (or similar) 1  ตัว
+DB4 diac (or similar) 1   ตัว
+1N4004 diode 4   ตัว
+1.5KE68CA bidirectional transient suppression diode 'transil' 1   ตัว
+0.1 uF 100V capacitor 1   ตัว
+0.1 uF 400V capacitor 1   ตัว
+12K 10W resistor 1   ตัว
+27K 0.5W resistor 2   ตัว
+10K 0.25W resistor 2   ตัว
+220 ohm 0.5W resistor 1   ตัว
+50K linear potentiometer 1   ตัว
+1K 0.25W resistor 1   ตัว
+  
+ 
+
+  
+ 
+
+ 
+ 
+

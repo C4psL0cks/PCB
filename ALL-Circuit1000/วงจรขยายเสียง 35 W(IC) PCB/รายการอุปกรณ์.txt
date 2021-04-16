@@ -1,0 +1,8 @@
+R1-3-5-8-10=1Kohm C1=2.2uF 63V TR1=10K Trimmer 
+R2-7-11=100Kohm C2=4.7uF 25V D1-2=IN4002 
+R4-6=4.7Kohm C3-17=47uF 63V IC1=LM391 
+R9-12=100ohm C4-8-9=1nF 100V MKT Q1=BD139 
+R13=47Kohm C5=47nF 100V MKT Q2=BD140 
+R14-15=0.15ohm 5W C6=22pF ceramic Q3=TIP2955  
+R16=1ohm 2W carbon 5% C7-11-12-13=100nF 100V MKT Q4=TIP3055 
+R17=10ohm 1W carbon 5% C10=22pF ceramic L1=Inductor L1 is constituted by 20 coils of wire, with thickness 0.9mm, round resistor R16. 

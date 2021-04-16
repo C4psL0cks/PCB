@@ -1,0 +1,6 @@
+R1-7=4.7Kohm R12=220Kohm D3=RED LED 3mm 
+R8=15Kohm R14=1.2Kohm IC1=4022 
+R9=1Mohm C1-3=100nF 100V Q1=BS170 
+R10-13=10Kohm C2=4.7uF 25V Q2=BD679 
+R11=100ohm D1-2=1N4148 S1-10=Push button or keyboard 
+

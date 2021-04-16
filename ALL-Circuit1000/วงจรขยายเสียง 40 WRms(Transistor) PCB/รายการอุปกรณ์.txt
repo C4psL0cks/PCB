@@ -1,0 +1,29 @@
+Wire
+  Diode assembly:         Gray 22 AWG (cathode)
+                          White 22 AWG (annode)
+  NPN Power Transistor:   Red 18 AWG (collector)
+                          Orange 22 AWG (base)
+                          Yellow 18 AWG (emitter)
+  PNP Power Transistor:   Green 18 AWG (collector)
+                          Violet 22 AWG (base)
+                          Blue 18 AWG (emitter)
+  Input Signal:           No wires, PCB mount jack
+  Output Signal:          Blue 18 AWG (from PC board)
+                          Black 18 AWG (from power supply)
+  PC Board Power:         Red 18 AWG (to +35V on supply)
+                          Black 22 Awg (to ground on supply)
+                          Green 18 AWG (to -35V on supply)
+
+
+Testing
+If any of these tests fail, the amp is not constructed properly... the easiest and best way to find the problem is visual inspection. 
+Turn variable resistor fully counterclockwise (max resistance) 
+Connect to +/- 24 volt supply with 200mA current limit. No input and no output connected. Monitor current from power supply with a current meter. 
+Apply power... if current is above about 25 mA, shut off immediately! 
+Measure voltage across the 1k resistor connected to the input stage and Vcc. The DC voltage should be about 2 volt, or 2 mA of current through this resistor. Eg, if Vcc is at 24 volts, the side of this resistor connected to the 2N5210 transisor ought to be at about 22 volts. 
+Measure the DC voltage on the output line. It should be appox zero volts. -0.2 volts is probably fine. 
+Turn the variable resistor slowly until the amplifer's current consumption is approx 50 mA. Turn slowly and be careful... if you turn too far you could damage the output transistors. 
+Conect an oscilloscope to the output and apply a low amplitude 20 kHz square wave to the input. DO NOT connect any speakers during this test. This test should be done without the 330 pF capacitor installed. The amp should output a 20 kHz square wave with very little "ringing". It should not oscillate. 
+Solder the 330 pF capacitor into the circuit. 
+Shut off the power, connect audio input and a speaker. Make sure the volume is turned all the way down. Apply power... watch current meter again and shut off the power immediately if the current jumps to something much higher than 50 mA. 
+Slowly turn up the volume and see if the amp works. DO NOT turn it up very much... the amplifier should not be operated with a supply less than +/- 30 volts. It should never be used for high volume output without a power supply rated for at least 2 amps of current (8 ohm load). After this initial test with +/- 24V at 200 mA (current limited) only a proper power supply should be used which can provide enough current. 

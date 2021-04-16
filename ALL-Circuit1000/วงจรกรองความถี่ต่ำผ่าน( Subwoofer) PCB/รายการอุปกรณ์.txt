@@ -1,0 +1,23 @@
+
+R1  = 39   Kohm
+R2  = 39   Kohm
+R3  = 47   Kohm
+R4  = 10   Ohm
+R5  = 22   Kohm
+R6  = 4.7  Kohm
+R7  = 22   Kohm
+R8  = 4.7  Kohm
+R9  = 10   Ohm
+R10 = 220  Ohm
+C1  = 39   pF
+C2  = 0.1  uF
+C3  = 0.1  uF
+C4  = 0.2  uF
+C5  = 0.4  uF
+C6  = 0.1  uF
+C7  = 0.1  uF
+IC1 = TL064
+ 
+
+  
+

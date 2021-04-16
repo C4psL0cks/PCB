@@ -1,0 +1,4 @@
+R1-8=10Kohms IC1=74LS374 D1-8=Led 3mm 
+R9=470 ohms IC2=74LS27 C1-3=47nF 63V MKT 
+R10-17= 4.7Kohms IC3=74LS10 RL1-8= 6-12V DC Relay 
+TR1=4.7Kohms Trimmer T1-8=BC550 S1-8=Push button SW 

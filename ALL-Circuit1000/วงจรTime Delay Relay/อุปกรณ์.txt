@@ -1,0 +1,17 @@
+C1    10uf 16V Electrolytic Capacitor
+C2         0.01uf Ceramic Disc Capacitor
+R1           1  Meg Pot
+R2       10 K 1/4 Watt Resistor
+D1,D2        1N914 Diodes
+U1         555 Timer IC
+RELAY          9V Relay
+S1          Normally Open Push Button Switch
+
+
+
+Notes:
+1. R1 adjusts the on time. 
+
+2. You can use a different capacitor for C1 to change the maximum on time. 
+
+3. S1 is used to activate the timing cycle. S1 can be replaced by a NPN transistor so that the circuit may be triggered by a computer, other circuit, etc. 

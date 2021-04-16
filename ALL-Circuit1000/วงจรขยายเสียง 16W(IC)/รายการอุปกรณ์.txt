@@ -1,0 +1,9 @@
+U1 U2 LM383 8 watt audio amplifier ic 
+R1, R3 220 ohm resistor 
+R2, R4 2.2 ohm resistor 
+R5 1 megohm resistor 
+R6 100k audio taper potentiometer 
+C1, C7 10uf electrolytic capacitor 
+C2, C5 470uf electrolytic capacitor 
+C3, C4, C6 0.2uf ceramic capacitor 
+SPKR1 4 to 8 ohm speaker (up to 8 inches diameter) 

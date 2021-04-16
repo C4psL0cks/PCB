@@ -1,0 +1,6 @@
+R1, R3  10K Pot  
+R2, R4  100K 1/4 W Resistor  
+R5  6.8K 1/4 W Resistor  
+C1, C2, C3  0.1uF Capacitor  
+Q1  2N3819 Junction FET 
+

@@ -1,0 +1,6 @@
+R1-2-3=1Kohm    D5=Led  Red 3mm F1=50mA Fuse 
+C1=1000uF 16V   D6=8V2 0.4W zener B1=5X1.5V Battery 
+C2=100uF 16V    Q1=BD139  
+D1...4-7=1N4002
+ T1=230Vac// 10Vac - 0.5A transform. 
+

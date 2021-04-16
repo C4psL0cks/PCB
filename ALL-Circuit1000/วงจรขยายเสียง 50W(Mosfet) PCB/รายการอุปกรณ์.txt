@@ -1,0 +1,27 @@
+liste des composants
+resistances
+r1-r14:4,7k
+r2-r6:47k
+r3:15k
+r4:1,2k
+r5:560
+r7:2,2k
+r8-r9:2,7k
+r10:680
+r11:10k
+r12:820
+r13:10/2watts
+condensateurs:
+c1:220pF
+c2:100uF/16v
+c3-c4:47uF/40v
+c5-c6:100uF/40v
+c7:68nF
+transitors/diodes:
+t1-t2:bc556
+t3-t4:bc546
+t5:irf530/540
+t6:irf9530/9540
+d1:1n4001
+misc:
+ajustable 1k

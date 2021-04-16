@@ -1,0 +1,12 @@
+C1 100u 10V
+C2 100n polyester
+R1 10k
+R2 1k
+R3 33R 1W
+R4 3k3
+Q1 BC109C
+IC1 LM7805 
+IC2 CMOS 4049B
+IC3 IR1 module from Harrison Electronics See Last paragraph
+LED1 Red LED (or any visible colour)
+LED2 TIL38 or part YH70M from Maplin Electronics 

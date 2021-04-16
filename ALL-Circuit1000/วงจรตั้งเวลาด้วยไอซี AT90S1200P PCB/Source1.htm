@@ -1,0 +1,373 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0044)http://www.peg.si/electro/files/down_co1.asm -->
+<HTML><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=windows-874">
+<META content="MSHTML 6.00.2900.2096" name=GENERATOR></HEAD>
+<BODY><PRE>.device	AT90S1200	
+.include "1200def.inc"
+
+.cseg	
+
+.def	temp	=r16
+.def	temp2	=r17
+.def	adress	=r18
+.def	data	=r19
+.def	timer	=r20
+.def	sek1	=r21
+.def	sek2	=r22
+.def	min1	=r23
+.def	min2	=r24
+.def	ura1	=r25
+.def	ura2	=r26
+.def	alarm	=r27
+.def	savekey	=r28
+.def	samples	=r29
+.def	start	=r30
+
+.equ	RS	= 5	; 5 PORTD
+.equ	RW	= 4	; 4 PORTD
+.equ	E	= 6	; 6 PORTD 	;DDRD = $78
+
+.equ	alarm_sek1	=$30
+.equ	alarm_sek2	=$30
+.equ	alarm_min1	=$30
+.equ	alarm_min2	=$30
+.equ	alarm_ura1	=$30
+.equ	alarm_ura2	=$30
+
+
+.equ	Clear_disp	= $01	; 0000 0001  Clears display and returns cursor to home position	
+.equ	Cur_home	= $02	; 0000 0010  Returns cursor to home position, also returns display being shiftet to the original position
+.equ	Entry_mode	= $06	; 0000 01**  I/D set cursor move direction, S specify to shift the display
+.equ	Disp_contr	= $0C	; 0000 1***  D on/off display, C on/off cursor, B blink of cusor position character
+.equ	Cur_shift	= $14	; 0001 **00  S/C cursor move or display shift, R/L shift direction
+.equ	Funct_set	= $30	; 001* **00  DL data lenght, N number of display line, F character font
+
+;* I/D 	0-decrement	1-increment	* B	0-blink off	1-blink on
+;* S	0-no shift	1-shift		* S/C	0-move cursor	1-shift display
+;* D	0-display off	1-display on	* R/L	0-shift left	1-shift right
+;* C	0cursor off	1-cursor on	* DL	0-4bit 		1-8bit interface
+;* F	0-5x7 dots	1-5x10 dots	* N	0-one line	1-two lines
+;					* BF	0-can accept	1-busy
+
+
+
+;************* PROGRAM START - EXECUTION STARTS HERE ****************
+
+.org	$0000
+	rjmp 	RESET 		;* Reset Handle
+.org	INT0addr	
+	reti			;* not used
+.org	OVF0addr
+	rjmp	TIMER		;* Real Time Interupt (1/32s) Handle
+.org	ACIaddr
+	reti			;* not used
+
+
+RESET:
+	ldi	temp,$FF	;* port direction initialization
+	out	DDRB,temp	;*
+	ldi	temp,$78	;*
+	out	DDRD,temp	;*
+
+	ldi	temp,$02	;* timer overflow interup0 enable
+	out	TIMSK,temp	;*
+	ldi	temp,$04	;* prescaler set to 256
+	out	TCCR0,temp	;*
+	ldi	temp,$80	;* analog comparator POWER OFF
+	out	ACSR,temp	;*
+	ldi	temp,$20	;* SLEEP ENABLE, alt to IDLE MODE, (or power down mode MCUCR=$30)
+	out	MCUCR,temp	;*
+
+	ldi	temp,Funct_set		;* Initialization of Liquid Crystal Display
+	rcall	INSTR_INPUT		;*
+	ldi	temp2,$22		;*
+	rcall	DELAY			;*
+	ldi	temp,Funct_set		;*
+	rcall	INSTR_INPUT		;*
+	ldi	temp2,$01		;*
+	rcall	DELAY			;*
+					;*
+	ldi	temp,Funct_set		;*
+	rcall	SET_LCD			;*
+	ldi	temp,Clear_disp		;*
+	rcall	SET_LCD			;*
+	ldi	temp,Entry_mode		;*
+	rcall	SET_LCD			;*
+	ldi	temp,Disp_contr		;*
+	rcall	SET_LCD			;*
+	ldi	temp,Cur_shift		;*
+	rcall	SET_LCD			;*
+
+	ldi	timer,$00		;* zacetni pogoji
+	ldi	savekey,$00		;*
+	ldi	sek1,$39		;*
+	ldi	sek2,$35		;*
+	ldi	min1,$39		;*
+	ldi	min2,$35		;*
+	ldi	ura1,$39		;*
+	ldi	ura2,$35		;*
+
+	sei
+	
+	ldi	adress,$82	;* naredi dvopicje med stevilke
+	ldi	data,$3A	;*
+	rcall	PRINT		;*
+	ldi	adress,$85	;*
+	rcall	PRINT		;*
+
+	ldi	adress,$80
+	mov	data,ura2
+	rcall	PRINT
+	inc	adress
+	mov	data,ura1
+	rcall	PRINT
+	ldi	adress,$83
+	mov	data,min2
+	rcall	PRINT
+	inc	adress
+	mov	data,min1
+	rcall	PRINT
+	ldi	adress,$86
+	mov	data,sek2
+	rcall	PRINT
+	inc	adress
+	mov	data,sek1
+	rcall	PRINT
+
+END:	sleep
+	rjmp	END
+
+;************* Timer Interupt 1/8s **********************************
+TIMER:	
+	cpi	timer,31
+	breq	RTC
+	inc	timer	
+	rjmp	READ_KB
+	reti
+
+;************* READ KEYBOARD ****************************************
+READ_KB:
+	in	temp,PIND	;* ta zanka se dogodi vsake 1/32 sekunde
+	andi	temp,$07	;* trikrat mora biti enak sample, da lahko nadaljuje
+				;* 
+	cpse	savekey,temp	;*
+	ldi	samples,6	;* 
+	dec	samples		;*
+	breq	OK		;*
+	mov	savekey,temp	;*
+	reti
+
+OK:	ldi	samples,6
+	ldi	savekey,$00
+	cpi	temp,1
+	breq	T1
+	cpi	temp,2
+	breq	T3
+	cpi	temp,3
+	breq	T4
+	cpi	temp,4
+	breq	T6
+	cpi	temp,5
+	breq	T2
+	cpi	temp,6
+	breq	T7
+	cpi	temp,7
+	breq	T5
+	reti
+
+T1:	rjmp	RTC
+	reti
+T2:	rjmp	TIME_M
+	reti
+T3:	rjmp	TIME_U
+	reti
+T4:	ldi	start,$00	;* counting is stopped
+	reti
+T5:	ldi	start,$FF	;* counting is allowed
+	reti
+T6:	reti
+T7:	reti
+
+;************* RTC **************************************************
+RTC:	ldi	timer,$00
+	ldi	alarm,$00	
+
+	ldi	temp,$FF
+	cpse	temp,start	;* if start =$FF -&gt; continue , if start =$00 -&gt; stop counting
+	reti
+
+	ldi	temp,alarm_sek1	;*
+	cpse	sek1,temp	;* 
+	inc	alarm		;* alarm=0 na zacetku
+	ldi	temp,alarm_sek2	;* ce so nastavitve alarma enake realnemu casu
+	cpse	sek2,temp	;* potem se mu ne pristeje nobena vrednost in
+	inc	alarm		;* ima na koncu se vedno vrednost nic, to pa je
+	ldi	temp,alarm_min1	;* pogoj za sprozitev alarma
+	cpse	min1,temp	;* 
+	inc	alarm		;*
+	ldi	temp,alarm_min2	;*
+	cpse	min2,temp	;* ce vrednost alarma ni enaka nic, potem se
+	inc	alarm		;* nadaljuje stetje casa
+	ldi	temp,alarm_ura1	;*
+	cpse	ura1,temp	;*
+	inc	alarm		;*
+	ldi	temp,alarm_ura2	;*
+	cpse	ura2,temp	;*
+	inc	alarm		;*
+	cpi	alarm,$00	;*
+	brne	TIME		;*
+	ldi	temp,$08	;* bitu 3 priredi vrednost 1
+	out	PORTD,temp	;* 
+
+
+TIME:	ldi	temp,$30
+	cpse 	sek1,temp
+	brne	XS1
+	ldi	sek1,$39
+	ldi	adress,$87
+	mov	data,sek1
+	rcall	PRINT		
+
+TIME_M:	ldi	temp,$30
+	cpse	sek2,temp
+	brne	XS2
+	ldi	sek2,$35
+	ldi	adress,$86
+	mov	data,sek2
+	rcall	PRINT		
+
+	ldi	temp,$30
+	cpse	min1,temp
+	brne	XM1
+	ldi	min1,$39
+	ldi	adress,$84
+	mov	data,min1
+	rcall	PRINT		
+
+TIME_U:	ldi	temp,$30
+	cpse	min2,temp
+	brne	XM2
+	ldi	min2,$35
+	ldi	adress,$83
+	mov	data,min2
+	rcall	PRINT		
+
+	ldi	temp,$30
+	cpse	ura1,temp
+	brne	XU1
+	ldi	ura1,$39
+	ldi	adress,$81
+	mov	data,ura1
+	rcall	PRINT		
+
+	ldi	temp,$30
+	cpse	ura2,temp
+	brne	XU2
+	ldi	ura2,$35
+	ldi	adress,$80
+	mov	data,ura2
+	rcall	PRINT
+	reti		
+
+XS1:	dec	sek1
+	ldi	adress,$87
+	mov	data,sek1
+	rcall	PRINT
+	reti
+
+XS2:	dec	sek2
+	ldi	adress,$86
+	mov	data,sek2
+	rcall	PRINT
+	reti
+
+XM1:	dec	min1
+	ldi	adress,$84
+	mov	data,min1
+	rcall	PRINT
+	reti
+
+XM2:	dec	min2
+	ldi	adress,$83
+	mov	data,min2
+	rcall	PRINT
+	reti
+
+XU1:	dec	ura1
+	ldi	adress,$81
+	mov	data,ura1
+	rcall	PRINT
+	reti
+
+XU2:	dec	ura2
+	ldi	adress,$80
+	mov	data,ura2
+	rcall	PRINT
+	reti
+
+
+;************* PRINT ************************************************
+PRINT: 
+	out 	PORTB,adress	
+	rcall 	INSTR_INPUT	
+	rcall	WAIT_BUSY	
+
+	out	PORTB,data
+	rcall	DATA_INPUT
+	rcall	WAIT_BUSY
+	ret
+
+;************* DATA_INPUT *******************************************
+DATA_INPUT:
+	sbi	PORTD,RS	; RS 	set	
+	sbi	PORTD,E		; E	set
+	nop
+	cbi	PORTD,E		; E	clear
+	cbi	PORTD,RS	; RS	clear
+	ret
+
+;************* INSTR_INPUT ******************************************
+INSTR_INPUT:
+	sbi	PORTD,E		; E 	set	
+	nop
+	cbi	PORTD,E		; E	clear
+	ret
+
+;************* WAIT_BUSY ********************************************
+WAIT_BUSY:
+	ldi	temp,$00
+	out 	DDRB,temp		; PORTC set as input
+	sbi	PORTD,RW		; RW	set
+	sbi	PORTD,E			; E	set
+	
+waitBF:	in	temp,PINB		; wait till the LCD module is ready
+	tst	temp
+	brmi	waitBF			; N -&gt; 7bit (BF)
+
+	cbi	PORTD,E			; E	clear
+	cbi	PORTD,RW		; RW	clear
+	ldi	temp,$FF
+	out 	DDRB,temp		; PORTC set as output
+	ret
+
+;************* SET_LCD **********************************************
+SET_LCD:
+	out	PORTB,temp
+	rcall	INSTR_INPUT
+	rcall	WAIT_BUSY
+	ret
+
+;************* Delay ************************************************
+DELAY:				; $FF-$FF : 65m		XTAL=4MHz
+	ldi 	temp,$55	; $BB-$FF : 36m
+LOOP2:	dec	temp		; $55-$FF : 16m
+	brne	LOOP2		; $33-$FF : 9.7m
+	dec	temp2		; $11-$FF : 3.2m
+	brne	DELAY		; $0A-$FF : 1.9m
+	ret			; $01-$FF : 0.2m
+				; $COUNT1-$temp
+
+
+
+</PRE></BODY></HTML>

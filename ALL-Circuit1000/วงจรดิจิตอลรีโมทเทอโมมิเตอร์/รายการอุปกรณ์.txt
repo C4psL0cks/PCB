@@ -1,0 +1,97 @@
+Transmitter parts: 
+
+R1,R3________100K  1/4W Resistors
+R2___________47R   1/4W Resistor
+R4____________5K   1/2W Trimmer Cermet
+R5___________12K   1/4W Resistor
+R6___________10K   1/4W Resistor
+R7____________6K8  1/4W Resistor
+R8,R9_________1K   1/4W Resistors
+
+C1___________220nF  63V Polyester Capacitor
+C2____________10nF  63V Polyester Capacitor
+C3_____________1uF  63V Polyester Capacitor
+C4,C6__________1nF  63V Polyester Capacitors
+C5_____________2n2  63V Polyester Capacitor
+C7,C8_________47nF 400V Polyester Capacitors
+C9__________1000uF  25V Electrolytic Capacitor
+
+D1__________1N4148  75V 150mA Diode
+D2,D3_______1N4002 100V 1A Diodes
+D4____________5mm. Red LED
+
+IC1___________LM35  Linear temperature sensor IC
+IC2__________LM331  Voltage-frequency converter IC
+IC3__________78L06  6V 100mA Voltage regulator IC
+
+Q1___________BC238  25V 100mA NPN Transistor
+Q2___________BD139  80V 1.5A NPN Transistor
+
+L1___________Primary (Connected to Q2 Collector): 100 turns
+             Secondary: 10 turns
+             Wire diameter: O.2mm. enameled
+             Plastic former with ferrite core. Outer diameter: 4mm. 
+
+T1___________220V Primary, 12+12V Secondary 3VA Mains transformer
+
+PL1__________Male Mains plug & cable
+
+
+
+Receiver Parts: 
+
+R1__________100K   1/4W Resistor
+R2____________1K   1/4W Resistor
+R3,R4,R6-R8__12K   1/4W Resistors
+R5___________47K   1/4W Resistor
+R9-R15______470R   1/4W Resistors
+R16_________680R   1/4W Resistor
+
+C1,C2_________47nF 400V Polyester Capacitors
+C3,C7__________1nF  63V Polyester Capacitors
+C4____________10nF  63V Polyester Capacitor
+C5,C6,C10____220nF  63V Polyester Capacitors
+C8__________1000uF  25V Electrolytic Capacitor
+C9___________100pF  63V Ceramic Capacitor
+
+D1,D2,D5____1N4148  75V 150mA Diodes
+D4,D4_______1N4002 100V 1A Diodes
+D6-D8_______Common-cathode 7-segment LED mini-displays
+
+IC1__________4093   Quad 2 input Schmitt NAND Gate IC
+IC2__________4518   Dual BCD Up-Counter IC
+IC3__________78L12  12V 100mA Voltage regulator IC
+IC4__________4017   Decade Counter with 10 decoded outputs IC
+IC5__________4553   Three-digit BCD Counter IC
+IC6__________4511   BCD-to-7-Segment Latch/Decoder/Driver IC
+
+Q1___________BC239C 25V 100mA NPN Transistor
+Q2-Q4________BC327  45V 800mA PNP Transistors
+
+L1___________Primary (Connected to C1 & C2): 10 turns
+             Secondary: 100 turns
+             Wire diameter: O.2mm. enameled
+             Plastic former with ferrite core. Outer diameter: 4mm. 
+
+T1___________220V Primary, 12+12V Secondary 3VA Mains transformer
+
+PL1__________Male Mains plug & cable
+
+
+
+Notes: 
+
+D6 is the Most Significant Digit and D8 is the Least Significant Digit. 
+
+R16 is connected to the Dot anode of D7 to permanently light the decimal point. 
+
+Set the ferrite cores of both inductors for maximum output (best measured with an oscilloscope, but not critical). 
+
+Set trimmer R4 in the transmitter to obtain a frequency of 5KHz at pin 3 of IC2 with an input of 0.5Vcc at pin 7 (a digital frequency meter is required). 
+
+More simple setup: place a thermometer close to IC1 sensor, then set R4 to obtain the same reading of the thermometer in the receiver's display. 
+
+Keep the sensor (IC1) well away from heating sources (e.g. Mains Transformer T1). 
+
+Linearity is very good. 
+

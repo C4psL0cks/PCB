@@ -1,0 +1,16 @@
+C1,C4,C6,C8,C10  0.1 uf, polyester
+C2,C3   10 pf np
+C5 10uF-16v   (electrolytic capacitor)
+C7 100uF-16v
+C9  100uF-63v 
+D1,D2  1N4148
+JP1,JP2,JP3   jumper
+R1,R5,R6,R7  10K 1/4W  1%
+R2,R4  100K 1/4W  1%
+R3  1M 1/4W  1%
+R8,R9,R10  12 ohm 1W
+U1  HSDL7001 or IRM7001 (HP, Siemens or others)       
+U2  IRMS6115 or IRMS6116 (HP, Siemens or others)      
+U3  7805 (voltage regulator, +5v)
+XT1 3.6864MHz crystal
+ 

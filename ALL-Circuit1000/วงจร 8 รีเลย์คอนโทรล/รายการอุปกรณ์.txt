@@ -1,0 +1,3 @@
+R1-8=4.7 Kohms T1-8= BD139 (R1-8=15 Kohms if  T1-8=BD679) 
+RL1-8=6V-24V dc Relay D1-8=1N4148 
+

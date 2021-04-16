@@ -1,0 +1,26 @@
+R1, R4 2 .2K 1/4W Resistor  
+R2, R3  4.7K 1/4W Resistor  
+R5  1K 1/4W Resistor  
+R6  1.5K 1/4W Resistor  
+R7  33K 1/4W Resistor  
+R8  10K 1/4W Resistor  
+C1,C2  0.1uF Ceramic Disc Capacitor  
+C3  470uF 25V Electrolytic Capcitor  
+D1  1N914 Diode  
+D2  1N4004 Diode  
+D3  12V 400mW Zener Diode  
+Q1, Q2, Q4  BC547 NPN Transistor  
+Q3  BD679 NPN Transistor  
+L1  See Notes 
+Notes
+1. L1 is a custom inductor wound with about 80 turns of 0.5mm magnet wire around a toroidal core with a 40mm outside diameter. 
+
+2. Different values of D3 can be used to get different output voltages from about 0.6V to around 30V. Note that at higher voltages the circuit might not perform as well and may not produce as much current. You may also need to use a larger C3 for higher voltages and/or higher currents. 
+
+3. You can use a larger value for C3 to provide better filtering. 
+
+4. The circuit will require about 2A from the 6V supply to provide the full 800mA at 12V. 
+
+
+
+--------------------------------------------------------------------------------

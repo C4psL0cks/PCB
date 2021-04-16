@@ -1,0 +1,8 @@
+R1=1 Mohms C4=100nF 63V IC2=LM555 
+R2=330 Kohms C1-2=100uF 16V RV1=470 Kohms pot. 
+R3=680 ohms C3=1000uF 16V RL1-2=12V >120 ohms Relay 
+R4=2.2 Kohms D1=1N4148 S1-2=Push button n.o 
+R5-7=4.7 Kohms D2-3-4=1N4001 S3=2X2 switch 
+R6=47 Kohms Q1=BC214  
+R8-9=22 Kohms IC1=LM741 
+

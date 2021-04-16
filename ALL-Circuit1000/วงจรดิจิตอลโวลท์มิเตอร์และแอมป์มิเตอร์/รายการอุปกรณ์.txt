@@ -1,0 +1,9 @@
+R1=680Kohms  C1-5=10nF IC2-4=CA3161E  Intersil-Harris 
+R2-6=1Mohms  C2-6=47uF 16V IC5=7805 
+R3=6.8Kohms  C3-7-10-11=100nF GR1=4X 1N4001 
+R4-7=270 ohms  C4-8=220nF 1% Q1......6=BC557 
+R5=0.1 ohms 5W  C9=2200uF 25V DS1......6= 7Segment Display common anode 
+RV1-4=50Kohms  trimmer 10 turns   C12=10uF 16V T1=230VAC/6VAC 1A 
+RV2-3=5Kohms trimmer 10 turns     IC1-3=CA3162E  Intersil-Harris  
+ 
+

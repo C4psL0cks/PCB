@@ -1,0 +1,14 @@
+C1, C3, C5, C7, C15, C16  2.2uf Electrolytic Capacitor  
+C2, C6   0.05uF Ceramic Disc Capacitor  
+C4  0.22uF Disc Capacitor  
+C8, C10   0.015uF Ceramic Disc Capacitor  
+C9  100uF Electrolytic Capacitor  
+C11, C12, C13, C14   0.1uF Ceramic Disc Capacitor  
+R1, R4   10K 1/4W Resistor  
+R2, R5   33K 1/4W Resistor  
+R3, R6   4.7K 1/4W Resistor  
+R7  2.2K 1/4W Resistor  
+R8, R9, R10, R11  50K Linear Pot  
+U1  TDA1524A Tone Control IC  
+S1  SPST Switch  
+J1, J2, J3, J4   RCA Jacks 

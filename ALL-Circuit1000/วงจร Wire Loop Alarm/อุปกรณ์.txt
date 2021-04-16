@@ -1,0 +1,12 @@
+R1  100K 1/2W 1% Resistor  
+R2, R4  10K 1/2W 1% Resistor  
+R3 1  Meg 1/2W 1% Resistor  
+C1, C3  0.1uF Ceramic Disc Capacitor  
+C2  0.01uF Ceramic Disc Capacitor  
+IC1  4001UBE Quad 2-i/p NOR Gate  
+Q1  MPSA14 Low Power NPN Transistor  
+SIREN  Micro piezo siren 12V DC 150mA, 110dB @ 1M  
+LOOP  See "Notes"  
+ The loop can be any type of hookup wire, with a maximum resistance of about 90K. Using very thin wire (40AWG, for example) will make a very sensitive trip wire, but will shorten the distance it can be strung due to the high resistance. 
+
+ The siren can be replaced with a relay to drive external loads. 

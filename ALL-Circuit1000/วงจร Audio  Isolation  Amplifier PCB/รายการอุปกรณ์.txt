@@ -1,0 +1,15 @@
+R1, R11 56 kOhm   C1, C11 470 nF 
+R2, R12 39 kOhm C2, C12 2,2 uF (mikrofarad) 
+R3, R13 180 kOhm C3, C13 4,7 uF (mikrofarad) 
+R4, R7, R14, R17 15 kOhm C4, C14 15 pF, Ceramic
+R5, R9, R15, R19 10 Ohm C21, C22, C25, C31, C32, C35 100 nF, Ceramic
+R6, R16 120 kOhm C23, C33 1000 uF (mikrofarad) / min. 16 V 
+R8, R18 470 Ohm C24, C34 100 uF (mikrofarad) / min. 10 V 
+R10, R20 100 kOhm C26 10 nF/630 V= (275 V~)
+R21, R31 390 Ohm T1, T3, T11, T13 BC559C (BC177, BC308, BC558 ...) 
+R22, R32 1,8 kOhm T2, T4, T12, T14 BC549C (KC238, BC238, BC548 ...) 
+R23 4,7 kOhm U21, U31 B250C1000DIL, diode stek DIL / DIL bridge 
+P1 10 kOhm / N, potenciometr D21, D22, D31, D32 1N4148, KA262 apod./or eq. 
+    IO21, IO31 LM317L 
+Transformor 0,5 W
+230 V / 2x 9 V LED LED 2 mA 

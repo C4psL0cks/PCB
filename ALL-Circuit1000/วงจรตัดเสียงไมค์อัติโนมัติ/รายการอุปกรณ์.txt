@@ -1,0 +1,14 @@
+Parts List 
+Pressure mat (Try local burglar alarm suppliers) 
+Rubber mat or rug to cover pressure mat 
+CD4049 
+H11F3 (or F1, F2, all work) 
+1M 1/4W resistor 
+470 ohm resistor (or 270 ohm for 6V battery) 
+1uF/50V ceramic capacitor or 1uF/10V tantalum 
+9V battery and clip (or 4 x AA battery and holder) 
+Box to put it in! 
+Connector to Microphone and out to PA 
+1/8" closed circuit mono miniature phone jack for pressure mat cord 
+Hookup wire 
+Hookup cable to pressure mat. 

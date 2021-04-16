@@ -1,0 +1,15 @@
+R1-4-37= 330Kohms ,R34= 15Mohms ,C12= 4.7nF 100V 
+R2-7= 2.2Kohms, R35-38= 220 ohms 1W ,C13= 1.5nF 100V 
+R3= 120Kohms ,R36= 100 ohms, C14= 470pF 100V 
+R5-6= 6.8Kohms ,C1-3= 1uF 40V ,C15= 68pF 100V 
+R8....12= 1.8Kohms, C2= 68pF 100V ,C16-19= 100nF 100V 
+R13....15= 200Kohms ,C4= 220uF 63V ,C17-20= 470uF 40V 
+R16= 180Kohms ,C5= 1uF 100V ,C18= 4.7uF 63V 
+R17= 150Kohms ,C6= 220nF 100V ,RV1....5= 50Kohms Lin. 
+R18= 1.5Kohms ,C7= 47nF 100V, Q1.....7= BC550C 
+R19....22= 1Kohms, C8= 15nF 100V ,S1= 2X2 SW 
+R23....27= 220Kohms ,C9= 5.6nF 100V . 
+R28....32= 15Kohms ,C10= 47nF 100V . 
+R33= 10Kohms ,C11= 15nF 100V . 
+
+

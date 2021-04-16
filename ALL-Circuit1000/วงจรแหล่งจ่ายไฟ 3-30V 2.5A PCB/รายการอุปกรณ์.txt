@@ -1,0 +1,8 @@
+R1 = 560R 1/4W C1 = 100nF 
+R2 = 1.2 K 1/4W C2 = 2200uF 35-40V 
+R3 = 3.9 K 1/4W C3 = 100 pF 
+R4 = 15K 1/4W C4 = 100uF/ 35V 
+R5 = 0.15R 5W   
+D = B40 C3300/2200, 3A rectifier bridge 
+P1 = 10K potesiometer TR1 = BD 135 
+IC = LM723 TR2 = 2N3055 

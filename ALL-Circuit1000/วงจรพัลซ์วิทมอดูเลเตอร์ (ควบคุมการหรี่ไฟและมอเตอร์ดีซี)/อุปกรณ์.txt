@@ -1,0 +1,15 @@
+U1:		LM324N quad op-amp
+U2:		78L12 12 volt regulator
+Q1:		IRF521 N channel MosFet
+D1:		1N4004 silicon diode
+LED1		Red LED
+C1:		0.01uF ceramic disc capacitor, 25V
+C2-C5:		0.1uF ceramic disk capacitor, 50V
+R1-R4:		100K 1/4W resistor
+R5:		47K 1/4W resistor
+R6-R7:		3.3K 1/4W resistor
+R8:		2.7K 1/4W resistor
+VR1:		10K linear potentiometer
+F1:		3 Amp, 28V DC fast blow fuse
+S1:		toggle switch, 5 Amps
+

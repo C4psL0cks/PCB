@@ -1,0 +1,29 @@
+R1  180 Ohm 1/4 W Resistor  
+R2  12K 1/4 W Resistor  
+C1  330pF Capacitor  
+C2  12pF Capacitor  
+C3  471pF Capacitor  
+C4  22pF Capacitor  
+Q1  2SA933 Transistor  
+D1, D2, D3, D4   1SS119 Silicon Diode  
+D5   Red LED  
+S1   SPDT Switch  
+L1   Tuning Coil  
+MISC 1 Wire, Circuit Board  
+
+
+Notes
+1. L1 is 7 turns of 22 AWG wire wound on a 9/64 drill bit. You may need to experiment with the number of turns. 
+
+2. By stretching and compressing the coils of L1, you can change the frequency of the transmitter. The min frequency is about 88 Mhz, while the max frequency is around 94 Mhz. 
+
+3. The green wire from the phone line goes to IN1. The red wire from the phone line goes to IN2. The green wire from OUT1 goes to the phone(s), as well as the red wire from OUT2. 
+
+4. The antenna is a piece of thin (22 AWG) wire about 5 inches long. 
+
+5. All capacitors are rated for 250V or greater. 
+
+6. The transmitter is powered by the phone line and is on only when the phone is in use. S1 can be used to turn the transmitter off if it is not needed. 
+
+7. If you have problems with the LED burning out, then add a 300 ohm 1/4W resistor in series with it. 
+

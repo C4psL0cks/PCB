@@ -1,0 +1,5 @@
+R1= 10Kohm C1= 47uF 25V 
+R2= 1.2Kohm C2= 2.2uF 25V 
+R3= 220Kohm Q1-2= BC550C 
+R4-5= 4.7Kohm D1= LED RED 
+

@@ -1,0 +1,15 @@
+R1, R2   10K 1/4 W Resistor  
+R3   1K 1/4 W Resistor  
+R4   33K 1/4 W Resistor  
+C1  1uF Electrolytic Capacitor  
+Q1, Q2, Q3   2N2222 NPN Transistor 2N3904 NPN Transistor 
+D1, D2, D3   1N4148 Diode  
+K1   9V Relay  
+J1   RCA Jack  
+
+
+
+Notes:
+1. Since you may be using this circuit to switch mains voltage, it should be enclosed in a case. 
+
+2. The circuit will also work with most line level audio, although you may have to adjust the value of R1

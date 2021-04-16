@@ -1,0 +1,30 @@
+อุปกรณ์
+R1 = 220K
+R2 = 4,7K
+R3 = R4 = 10K
+R5 = 82 Ohm
+R = 150Ohm 1/2W x2 *
+VR1 = 22K trimmer
+C1 = C2 = 4,7uF 25V electrolytic
+C3 = C13 = 4,7nF ceramic
+C4 = C14 = 1nF ceramic
+C5 = C6 = 470pF ceramic
+C7 = 11pF ceramic
+C8 = 3-10pF trimmer
+C9 = C12 = 7-35pF trimmer
+C10 = C11 = 10-60pF trimmer
+C15 = 4-20pF trimmer
+C16 = 22nF ceramic *
+L1 = 4 turns of silver coated wire at 5,5mm diameter
+L2 = 6 turns of silver coated wire at 5,5mm diameter
+L3 = 3 turns of silver coated wire at 5,5mm diameter
+L4 = printed on PCB
+L5 = 5 turns of silver coated wire at 7,5mm diameter
+RFC1=RFC2=RFC3= VK200 RFC tsok
+TR1 = TR2 = 2N2219 NPN
+TR3 = 2N3553 NPN
+TR4 = BC547/BC548 NPN
+D1 = 1N4148 diode *
+MIC = crystalic microphone
+
+Note: Parts marked with * are used for the tune-up of the transmitter in case you have not a stationary wave bridge.

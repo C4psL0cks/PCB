@@ -1,0 +1,6 @@
+R1  50K Pot  
+R2  15K 1/2W Resistor  
+C1, C2   0.068 250V Capacitor  
+L1   Lamp To Be Controlled (up to 350 watts)  
+L2   Neon Lamp  
+TR1  40502   TRIAC  

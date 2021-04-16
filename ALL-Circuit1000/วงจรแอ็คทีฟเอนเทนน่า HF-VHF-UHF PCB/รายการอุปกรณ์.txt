@@ -1,0 +1,14 @@
+R1 = 1 Mega Ohm
+R2 = 220K
+R3,R6 = 100K
+R4 = 100 ohm
+R5 = 10K potentiometer, (pc mount)
+C1,C2,C5,C6 = 0.01microF, ceramic disc
+C3 = 100pF ceramic disc
+C4 = 4.7 to 10microF, 16WVDC, radial lead electrolytic
+B1 = 9-volt alkaline battery
+S1,S2 = DPDT PC mount pushbutton switch
+J1,J2 = PC mount RCA jack
+ ANT1 = Telescoping whip antenna (screw mount)
+ MISC = PCB materials, enclosure, enclosure, battery holder and connector, 
+        wire, solder, etc.

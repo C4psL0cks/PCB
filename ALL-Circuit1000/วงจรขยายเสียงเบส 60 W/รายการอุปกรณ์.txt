@@ -1,0 +1,80 @@
+Amplifier parts: 
+R1__________________6K8    1W Resistor
+R2,R4_____________470R   1/4W Resistors
+R3__________________2K   1/2W Trimmer Cermet
+R5,R6_______________4K7  1/2W Resistors
+R7________________220R   1/2W Resistor
+R8__________________2K2  1/2W Resistor
+R9_________________50K   1/2W Trimmer Cermet
+R10________________68K   1/4W Resistor
+R11,R12______________R47   4W Wirewound Resistors
+C1,C2,C4,C5________47?F   63V Electrolytic Capacitors
+C3________________100?F   25V Electrolytic Capacitor
+C6_________________33pF   63V Ceramic Capacitor
+C7_______________1000?F   50V Electrolytic Capacitor
+C8_______________2200?F   63V Electrolytic Capacitor (See Notes)
+D1_________________LED    Any type and color
+D2________Diode bridge   200V 6A 
+Q1,Q2____________BD139    80V 1.5A NPN Transistors
+Q3_____________MJ11016   120V 30A NPN Darlington Transistor (See Notes)
+Q4_____________MJ11015   120V 30A PNP Darlington Transistor (See Notes)
+SW1_______________SPST Mains switch
+F1__________________4A Fuse with socket
+T1________________220V Primary, 48-50V Secondary 75 to 150VA Mains transformer
+PL1_______________Male Mains plug
+SPKR______________One or more speakers wired in series or in parallel
+                  Total resulting impedance: 8 or 4 Ohm
+                  Minimum power handling: 75W
+
+Preamplifier parts: 
+P1_________________10K   Linear Potentiometer
+P2_________________10K   Log. Potentiometer
+R1,R2______________68K   1/4W Resistors
+R3________________680K   1/4W Resistor
+R4________________220K   1/4W Resistor
+R5_________________33K   1/4W Resistor
+R6__________________2K2  1/4W Resistor
+R7__________________5K6  1/4W Resistor
+R8,R18____________330R   1/4W Resistors
+R9_________________47K   1/4W Resistor
+R10________________18K   1/4W Resistor
+R11_________________4K7  1/4W Resistor
+R12_________________1K   1/4W Resistor
+R13_________________1K5  1/4W Resistor
+R14,R15,R16_______100K   1/4W Resistors
+R17________________10K   1/4W Resistor
+C1,C4,C8,C9,C10____10uF   63V Electrolytic Capacitors
+C2_________________47uF   63V Electrolytic Capacitor
+C3_________________47pF   63V Ceramic Capacitor
+C5________________220nF   63V Polyester Capacitor
+C6________________470nF   63V Polyester Capacitor
+C7________________100nF   63V Polyester Capacitor
+C11_______________220uF   63V Electrolytic Capacitor
+Q1,Q3____________BC546    65V 100mA NPN Transistors
+Q2_______________BC556    65V 100mA PNP Transistor
+J1,J2___________6.3mm. Mono Jack sockets
+SW1_______________SPST Switch
+
+
+Notes: 
+
+The value listed for C8 is the minimum suggested value. A 3300?F capacitor or two 2200?F capacitors wired in parallel would be a better choice. 
+
+The Darlington transistor types listed could be too oversized for such a design. You can substitute them with MJ11014 (Q3) and MJ11013 (Q4) or TIP142 (Q3) and TIP147 (Q4). 
+
+T1 transformer can be also a 24 + 24V or 25 + 25V type (i.e. 48V or 50V center tapped). Obviously, the center-tap must be left unconnected. 
+
+SW1 switch inserts the Low-cut feature when open. 
+
+In all cases where Darlington transistors are used as the output devices it is essential that the sensing transistor (Q2) should be in as close thermal contact with the output transistors as possible. Therefore a TO126-case transistor type was chosen for easy bolting on the heatsink, very close to the output pair. 
+
+R9 must be trimmed in order to measure about half the voltage supply from the positive lead of C7 and ground. A better setting can be done using an oscilloscope, in order to obtain a symmetrical clipping of the output waveform at maximum output power. 
+
+To set quiescent current, remove temporarily the Fuse F1 and insert the probes of an Avo-meter in the two leads of the fuse holder. 
+
+Set the volume control to the minimum and Trimmer R3 to its minimum resistance. 
+
+Power-on the circuit and adjust R3 to read a current drawing of about 30 to 35mA. 
+
+Wait about 15 minutes, watch if the current is varying and readjust if necessary. 
+

@@ -1,0 +1,16 @@
+Parts List
+R1 = 180k P1 = 20k trimmer multi turn 
+R2 = 22k U1 = ICL 7107 
+R3 = 12k LD1,2,3,4 = MAN 6960 common anode led displays 
+R4 = 1M   
+R5 = 470k   
+R6 = 560 Ohm   
+C1 = 100pF   
+C2, C6, C7 = 100nF   
+C3 = 47nF   
+C4 = 10nF   
+C5 = 220nF   
+
+
+
+

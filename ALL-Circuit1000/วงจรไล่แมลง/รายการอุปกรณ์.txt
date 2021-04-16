@@ -1,0 +1,8 @@
+C1 (4n7/25Vdc.)            
+C2 (22uF/16VDC)     
+IC1 (4047)          
+TR1 (BC337)        
+TR2 (BC327)         
+TR3 (BC337)        
+TR4 (BC327)        
+VR1 (4K7)  

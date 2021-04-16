@@ -1,0 +1,108 @@
+The resistances are 1/4W.
+R1
+47K
+
+R2
+ 22K
+
+R3 100K 
+
+R4
+ 39K
+ 
+R5
+ 10
+ 
+R6-r12
+ 7,5K - Optionally
+ 
+R13-r21
+ 15K - Optionally
+ 
+P1
+ 10K Logarithmic potentiometer
+ 
+P2
+ 100K Linear potentiometer
+ 
+C1
+ 39pF Ceramic
+ 
+C2
+ 47pF Ceramic
+ 
+C3
+ 2,2nF Polyester
+ 
+C4, c14
+ 220nF Polyester
+ 
+C5
+ 22nF Polyester
+ 
+C6
+ 10nF Polyester
+ 
+C7, c18
+ 180pF Ceramic
+ 
+C8
+ 150pF Ceramic
+ 
+C9
+ 100nF Polyester
+ 
+C10, c13
+ 330pF Ceramic
+ 
+C11
+ 220pF Ceramic
+ 
+C12, c16
+ 3300pF Ceramic
+ 
+C15, c17
+ 1800pF Ceramic
+ 
+C19, c21, c22
+ 10mF/16V electrolytic
+ 
+C20
+ 10nF Polyester
+ 
+C23
+ 47nF Polyester
+ 
+C24, c25
+ 470mF/16V electrolytic
+ 
+L1, l2
+ 5 Coils linked with internal diameter 4mm from cupreous isolated wire 0,6mm.
+ 
+IC1
+ TDA7000 with base DIL18
+ 
+IC2
+ LM7805
+ 
+IC3
+ LM386 with base DIL 8
+ 
+D1
+ BB329 or BB105 or other than old tuner televisions.
+ 
+SPEAKER
+ Loudspeaker 8W/1W.
+ 
+S1
+ Switch of catering.
+ 
+AERIAL
+ 50cm isolated wire
+ 
+CONNECTOR DB25
+ Fastener of 25 pin parallel door PC (LPT) -Optional
+ 
+
+ 
+

@@ -1,0 +1,12 @@
+R1= 100Kohms C1= 2200uF 25V    D1= 1N4148 
+R2= 47Kohms C2= 100uF 25V   GR1= 4X1N4002 
+R3= 100Kohms   C3= 18nF 100V polyester   S1...3= 1X2 mini switch 
+R4.....10= 2.2Kohms C4-5= 10nF ceramic       OR polyester    S4...6= Push Button normal open 
+R11.....17= 10Kohms      Q1....7= BC550 T1= 220V AC/12V 1A 
+R18.....24-25-26= 220 ohms  0W5       Q8....13= BC560 DS1....DS7= Display 7 segmens Common Anode  
+R25-26=1.2Kohms  0W5      IC1= MM5314N 
+ 
+
+ 
+ 
+

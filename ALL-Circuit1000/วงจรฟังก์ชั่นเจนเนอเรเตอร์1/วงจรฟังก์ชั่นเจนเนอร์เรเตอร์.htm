@@ -1,0 +1,13 @@
+<html>
+<body>
+<center><h1>     วงจรฟังก์ชั่นเจนเนอร์เรเตอร์        </h1></center>
+<br><img  src="  001.gif   ">
+<hr  size=1>
+</body>
+</html>
+Notes: <br>
+Built around a single 8038 waveform generator IC, this circuit produces sine, square or triangle waves from 20Hz to 200kHz in four switched ranges. There are both high and low level outputs which may be adjusted with the level control. This project makes a useful addition to any hobbyists workbench as well. 
+
+Allof the waveform generation is produced by IC1. This versatile IC even has a sweep input, but is not used in this circuit. The IC contains an internal squarewave oscillator, the frequency of which is controlled by timing capacitors C1 - C4 and the 10k potentiometer. The tolerance of the capacitors should be 10% or better for stability. The squarewave is differentiated to produce a triangular wave, which in turn is shaped to produce a sine wave. All this is done internally, with a minimum of external components. The purity of the sine wave is adjusted by the two 100k preset resistors. 
+
+The wave shape switch is a single pole 3 way rotary switch, the wiper arm selects the wave shape and is connected to a 10k potentiometer which controls the amplitude of all waveforms. IC2 is an LF351 op-amp wired as a standard direct coupled non-inverting buffer, providing isolation between the waveform generator, and also increasing output current. The 2.2k and 47 ohm resistors form the output attenuator. At the high output, the maximum amplitude is about 8V pk-pk with the square wave. The maximum for the triangle and sine waves is around 6V and 4V respectively. The low amplitude controls is useful for testing amplifiers, as amplitudes of 20mV and 50mV are easily achievable. 

@@ -1,0 +1,3 @@
+This timer is preaty neet device. Its build with AT90S1200 RISC microcontroler (Atmel), it has LCD display to view time and to set other functions. Qrystal is choosed as 2n (4.194304 MHz = 2e22). This mean that minimal error is made when counting seconds - about 5sec/year. 
+Timer is used as a downcounter. So it counts down, untill it comes to zero, then counting stops. Another function is executed at that time: the onboard reed relay close contacts. I leave the choice of using this function to you. 
+Program is writen in assembly for AVR90S1200. If you are interested for working code email me. 

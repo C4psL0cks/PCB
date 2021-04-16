@@ -1,0 +1,5 @@
+Gray code comes handy when measuring absolute angle. In case of power-down no initialization is needed. So how to make this device? 
+This measuring device consist of 8 LEDs and 8 fotoelements. Between LED and fotoelement we put circle with gray code on it. When light goes through the wheel - this meens logic "1", and if light do not come through - this meens a logic "0". Circuit with ICs implemented on the same board with LEDs takes care of conversion from Gray to binary. 
+
+
+Schematic of Angle decoder. The best solution is to take the decoded signals to microcontroler or PC, display and/or process data. 

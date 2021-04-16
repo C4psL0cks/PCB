@@ -1,0 +1,11 @@
+<html>
+<body >
+<blockquote>
+<center><h1>วงจรกำเนิดเสียงโทนด้วยไอซี 555 (8 ohm speaker)</h1></center>
+<br><img  src="001.gif"> <br>
+This is a basic 555 squarewave oscillator used to produce a 1 Khz tone from an 8 ohm speaker. In the circuit on the left, the speaker is isolated from the oscillator by the NPN medium power transistor which also provides more current than can be obtained directly from the 555 (limit = 200 mA). A small capacitor is used at the transistor base to slow the switching times which reduces the inductive voltage produced by the speaker. Frequency is about 1.44/(R1 + 2*R2)C where R1 (1K) is much smaller than R2 (6.2K) to produce a near squarewave. Lower frequencies can be obtained by increasing the 6.2K value, higher frequencies will probably require a smaller capacitor as R1 cannot be reduced much below 1K. Lower volume levels can be obtained by adding a small resistor in series with the speaker (10-100 ohms). In the circuit on the right, the speaker is directly driven from the 555 timer output. The series capacitor (100 uF) increases the output by supplying an AC current to the speaker and driving it in both directions rather than just a pulsating DC current which would be the case without the capacitor. The 51 ohm resistor limits the current to less than 200 mA to prevent overloading the timer output at 9 volts. At 4.5 volts, a smaller resistor can be used. 
+
+<hr  size=1>
+</blockquote>
+</body>
+</html>

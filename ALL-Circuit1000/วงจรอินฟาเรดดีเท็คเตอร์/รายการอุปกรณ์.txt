@@ -1,0 +1,4 @@
+R1 270 ohm resistor 
+R2 10k resistor 
+LED1 Infrared LED 
+Q1 Infrared-sensitive photoresistor 

@@ -1,0 +1,9 @@
+7W FM Transmitter 
+L1 & L2 are air-core coils...8mm diameter...4 turn wrap...1 turn tap...18 gauge solid wire. Use may use a 5/16" standard threaded bolt to wrap the wire on. It fits perfect. then back out of bolt. 
+L3 & L6 are air-core coils...5mm diameter...3 turn wrap...18 gauge solid wire...use a 1/4" standard threaded bolt to wrap the wire on. It fits perfect, then back out of bolt. 
+L4 is a VK-200 choke (If omitted, output power is reduced by 25%) 
+L5 is an air-core coil...5mm diameter...11 turn wrap...18 gauge solid wire...use a 1/4" standard threaded bolt to wrap the wire on. It fits perfect, then back out of bolt. Sqeeze all the wraps real close...but make sure none are touching each other. 
+D2=1N4001 or 1N4002 
+Q1=2N3904, Q2=2N2907, Q3=2N2222A, Q4=2SC1971 
+
+

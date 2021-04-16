@@ -1,0 +1,5 @@
+U1 LM741 op amp IC 
+R1 100k ohm potentiometer 
+R2, R3 10k ohm resistor 
+R4 330 ohm resistor 
+LED1 light emitting diode 

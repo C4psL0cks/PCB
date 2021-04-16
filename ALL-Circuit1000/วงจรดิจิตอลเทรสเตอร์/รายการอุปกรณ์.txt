@@ -1,0 +1,8 @@
+R1, R2 = 10 kW 
+R3 = 47 kW 
+R4 = 8,2 kW 
+R5, R6 = 10 kW 
+R7 = 4,7 kW 
+R8-R12 = 330 W 
+LD1 = 7 segments LED display (common cathode) 
+IC1 = TTL IC 74LS00 

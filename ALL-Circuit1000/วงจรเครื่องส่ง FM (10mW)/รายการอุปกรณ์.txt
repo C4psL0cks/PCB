@@ -1,0 +1,26 @@
+รายการอุปกรณ์วงจรตามหมายเลข
+1A - 5.6K 1/2 Watt Carbon Resistor 
+1B - .001uF Ceramic Capacitor
+2 - Electret Microphone       
+3 - 1uF Electrolytic Capacitor       
+4 - 4.7K 1/2 Watt Carbon Resistor 
+5 - 47K 1/2 Watt Carbon Resistor  
+6 - 1.2K 1/2 Watt Carbon Resistor   
+7 - 5.6K 1/2 Watt Carbon Resistor   
+8 - 100 Ohm 1/2 Watt Carbon Resistor   
+9 - Positive lead to Power Supply       
+10 - Antenna Terminal                  
+11 - Negative lead to Power Supply   
+12 - Tapped Leg on the Air Core Coil     ( 0.1uH ) ปรับจูนกับ C5 เพือ่ให้ได้ค่าความถี่ตรง 88 MHz
+13 - Tapped Air-Core Coil  
+14- 4.7pF Ceramic Capacitor
+15-   5-30 Variable Capacitor 
+16-  1N914 Diode 
+17-  1uF Electrolytic Capacitor  
+18-  PNP 2N2907 or MPS2907 Transistor .
+19-  .001uF Ceramic Capacitor  
+20- 4.7K 1/2 Watt Carbon Resistor  
+21-  1uF Electrolytic Capacitor 
+22- NPN 2N3904 or MPS3904 Transistor 
+23- 22K 1/2 Watt Carbon Resistor  
+

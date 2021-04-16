@@ -1,0 +1,11 @@
+R1 = 1K                 D1,D2 = 1N4148
+R2 = 2K2               Z1 = 8V2, 1/4 watt
+R3,R4 = 22K         T1 = 2N3905 (PNP)
+R5 = 2K7              T2,3,4,5 =2N3904 (NPN)
+R6,R7 = 56K              9volt Alkaline battery
+R8 = *See text        suitable loudspeaker
+C1,C2 = 22nF             housing &amp; probes
+
+An on-off switch is not necessary. D1 is used when the battery is brand-new and giving 
+over the nominal 9 volt, T1, T2 and T3 acting as the switch for supplying power 
+to the multivibrator

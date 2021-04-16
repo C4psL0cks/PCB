@@ -1,0 +1,13 @@
+R1 = 1 M
+R2, R3, R4 = 22 k 
+R5 = 10 k 
+R6 = 200 k 
+R7 = 1  ohm 
+C1 = 1 uF 
+C2, C3 = 10 uF 
+C4 = 100 uF 
+C5 = 100 nF 
+C6 = 2200 uF 
+C7 = 22 nF 
+IC1 = LM1875 
+Ls1 = luidspreker 4-8  ohm

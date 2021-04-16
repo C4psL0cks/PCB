@@ -1,0 +1,24 @@
+
+R1-15-16-21-22-17-18=1Kohm R33=68ohm 5W Q1-2=BC550C [matched] 
+R2=47Kohm R35-36=6.8ohm 1W Q3-4=BC560C [matched] 
+R3-4=10Mohm TR1=1Kohm trimmer Q5=BC560C 
+R5-6-13-14=1.2Kohm TR2=1Mohm trimmer  Q6=BC550C 
+R7-12=47ohm C1=2.2uF 63-100V MKT Q7-11=BD140 
+R8-9-10-11=22ohm C2=1nF 100V MKT Q8-9-10=BD139 
+R19=82ohm C3-4=2.7nF 100V MKT Q12=IRF9540 
+R20=22Kohm C5=330pF ceramic or mylar Q13=IRF540 
+R23-26=56ohm C6-7=100uF 16V F1-2=Fuse 2.5A Fast 
+R24=2.2Kohm C8=1uF 100V MKT L1=see text [2] 
+R25=560ohm C9-11-12=100nF 100V MKT J1= 2pin connector 2.54mm step 
+R27-30=150ohm C10-13=470uF 63V  
+R28-29-31-34=15ohm C14=33nF 100V MKT  Q8-10-11-12-13 on Heatsink 
+R32=150ohm 5W D1-2=LED RED 3mm [see text] [1] All the resistors is 1/4W 1% except quote differently  
+
+
+อุปกรณ์ Power supply
+ 
+T1=2X25Vac 160VA //2X15Vac 20VA C5-8=1000uF 25V IC2=7912 Regulator  
+T2=2X25Vac 160VA C6-9=100nF 100V MKT F1=FUSE 2A slow block 
+BR1-3=200V 35A Bridge Rectifier  C7-10=10uF 25V S1=2X2 switch 10A 
+BR2=4 X 1N4002 C15=33nF 630V Class X2  JF1=3 pole male plug  
+C1...4-11...14=10000uF 63V IC1=7812 Regulator  

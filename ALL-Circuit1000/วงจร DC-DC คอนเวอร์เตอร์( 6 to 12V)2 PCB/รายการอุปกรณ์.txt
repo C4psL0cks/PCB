@@ -1,0 +1,9 @@
+IC  Switcher/regulator =  LM2577T-ADJ (National Semiconductor) 
+R1 and R2 Voltage devider for monitoring output voltage =  20Kohms pot. (Bourns)  
+Cin Decoupling =  0.1uF, 63V MKS condensator (WIMA) 
+L Use a good quality coil! =  160uH torood (2.5A, 70mohms, nickel-iron core) 
+D Current higher than output current!  =  FR603 60V reverse breakdown, 3A Schottky-diode 
+Rc and Cc Pole-zero compensation network = 2200ohms, 5% and 1uF, 63V elco (Philips) 
+Cout Get a low ESR type!  =  2200uF, 16V elco (Telecon) 
+
+ 

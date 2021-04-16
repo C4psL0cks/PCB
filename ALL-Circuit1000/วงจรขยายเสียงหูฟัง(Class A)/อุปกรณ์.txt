@@ -1,0 +1,8 @@
+R1-4= 1.2Kohm R12= 4.7 ohm C8-10= 470uF 25V 
+R2-3= 3.9Kohm RV1= 10Kohm  Log. pot. C9-11= 100nF 100V ceramic 
+R5-10= 10Kohm TR1= 10Kohm Trimmer Q1-3= BC184 
+R6=100Kohm C1= 4.7uF 63V MKT Q2-4= BC214 
+R7-9= 2.2Kohm C2-7= 100uF 25V Q5= BD136 or BD538 
+R8= 150 ohm C3-5= 100nF 100V  MKT Q6= BD135 or BD537 
+R11-13= 6R8 ohm C4-6= 100uF 16V All resistors is 1/4W 1% 
+

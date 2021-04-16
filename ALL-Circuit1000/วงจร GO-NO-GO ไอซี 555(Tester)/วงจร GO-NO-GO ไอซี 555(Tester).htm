@@ -1,0 +1,47 @@
+<html>
+<body >
+<center><h1>  Ç§¨Ã GO-NO-GO äÍ«Õ 555(Tester) </h1></center>
+<br><img  src="  001.gif   "> <br>
+ÍØ»¡³ì <br>
+  R1 = 2M2     IC1,IC2,IC3 = 555 Timer/Oscillator <br>
+   R2 = 3K               IC4 = SN7400 <br>
+R3,R5 = 270 ohm          IC5 = SN74107
+   R4 = 500K       Led1,Led2 = 5mm, Red/Green, high brightness <br>
+   R6 = 220K              S1 = On-Off switch, push button <br>
+P1,P2 = 500K, Trimpots  <br>
+   C1 = 1uF, 10V <br>
+C2,C3 = 4uF, 10V <br>
+This is a more advanced unit with a precise timed testing procedure.<BR><BR>R1 (2M2) is 
+same as 2.2 MegOhm.<BR>The two timers determine the allowable accuracy for the 
+timer IC under test. Potentiometers P1 and P2 permit ready adjustment for the 
+desired range.<BR>With power applied, all timers switch to the high state and 
+begin their cycles. The output of IC1 inhibits the flip-flop for the interval 
+T1. At T2, the output of IC2 goes low and inhibits any signal from the timer 
+under test. The period between T1 and T2 is the time alloted for IC3, the timer 
+under test, to complete its cycle and produce a low output. Only during this 
+time can a high-to-low transition from IC3 trigger the Flip-Flop IC5 so that Led 
+1 (timer ok), which indicates a good IC, lights up. Led 2 lights up when the 
+test is completed.<BR><BR>Although there can be a few milliseconds of contact 
+bounce when S1 is first closed, thereby causing a delay in capacitor charging, 
+the delay appears across all of the IC's. But since the ratio of delay times 
+among all three timers is the same, the effect on test accuracy is 
+nil.<BR><BR>How you get to the 5 volt supply power is up to you. Supply power 
+should be between 4.5V (min) and 5.5 (max). Probably three 1.5V alkalines will 
+total about 4.8V because they are never exactly 1.5 V but always between 1.56 
+and 1.59V or so, and will do the job until the voltage drops below 4.5V. A 
+simple stabilized 5V power supply would be better choice, or use a 5 volt 
+regulator with a 9 volt battery, works also. Do not forget to connect power to 
+the 7400 and 74101 IC's (see circuit diagram). Standard procedure is that if 
+they are not drawn, they are assumed. You can get the LS types (low schottky) 
+which draw less current.<BR>At this time I'm bench testing the cmos 
+types.<BR><BR>Note: While bench testing I found that older timers like the &micro;A555 
+and the MC1455, although good, were difficult to test. I tried extending the 
+testing period (in seconds) by adjusting trimpot P2 and got an ok from led2 for 
+the MC1455 but no such luck with the &micro;A555. The LM555 and NE555 testing were 
+excellent. I will test a couple more, including the cmos versions, and post my 
+findings here. If I can find the time I will modify the power supply for use 
+with a regular 9 volt battery instead of the bit ackward 5 volt 
+supply...<BR>
+<hr  size=1>
+</body>
+</html>

@@ -1,0 +1,21 @@
+C1  0.47uF 250V Capacitor  
+R1, R2   10K 1/4 W Resistor  
+R3   1K 1/4W Resistor  
+D1, D2   20V 1/4W Zener Diode  
+D3   1N4148 Diode  
+Q1   2N3904 NPN Transistor 2N2222 
+U1   4N27 Opto Isolator  
+RELAY   Solid State Or Regular Relay (See Notes)  
+MISC   Case, Wire, Board  
+
+
+Notes:
+1. You may need to use a lower voltage zener for D1 and D2. 
+
+2. You can use a regular relay instead of a solid state relay, but the arcing accross the contacts may destroy it pretty quickly. 
+
+3. Be very sure that you have not accidentally connected 120V to the phone line when building and installing this circuit. 
+
+ 
+
+ 

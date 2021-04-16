@@ -1,0 +1,96 @@
+R1,R4,R14,R15 
+ 10K 1/4W 
+   
+C18 
+ 33pF Ceramic Disc 
+ 
+R2,R3 
+ 22K 1/4W 
+  
+ C19 
+ 18pF Ceramic Disc 
+ 
+R5,R13 
+ 3.9K 1/4W 
+   
+C20 
+ 12pF Ceramic Disc 
+ 
+R6,R11 
+ 680R 1/4W 
+   
+C21,C22,C23,C24 
+ 40pF Trimmer 
+ 
+R7 
+ 150R 1/4W 
+   
+C25 
+ 5pF Ceramic Disc 
+ 
+R8,R12 
+ 100R 1/4W 
+  
+ L1 
+ 5 WDG, Dia 6 mm, 1 mm CuAg, Space 1 mm 
+ 
+R9 
+ 68R 1/4W 
+  
+ L2,L3,L5,L7,L9 
+ 6-hole Ferroxcube Wide band HF Choke (5 WDG) 
+ 
+R10 
+ 6.8K 1/4W 
+  
+ L4,L6,L8 
+ 1.5 WDG, Dia 6 mm, 1 mm CuAg, Space 1 mm 
+ 
+C1 
+ 4.7pF Ceramic Disc 
+  
+ L10 
+ 8 WDG, Dia 5 mm, 1 mm CuAg, Space 1 mm 
+ 
+C2,C3,C4,C5,C7,C11,C12 
+ 100nF Ceramic Disc 
+ 
+  D1 
+ BB405, BB102 or equal (most varicaps with C = 2-20 pF [approx.] will do) 
+ 
+C6,C9,C10 
+ 10nF Ceramic Disc 
+  
+ Q1 
+ 2N3866 
+ 
+C8,C14 
+ 60pF Trimmer 
+   
+Q2,Q4 
+ 2N2219A 
+ 
+C13 
+ 82pF Ceramic Disc 
+  
+ Q3 
+ BF115 
+ 
+C15 
+ 27pF Ceramic Disc 
+  
+ Q5 
+ 2N3553 
+ 
+C16 
+ 22pF Ceramic Disc 
+  
+ U1 
+ 7810 
+ 
+C17 
+ 10uF 25V Electrolytic 
+   MISC 
+ 
+PC Board, Wire For Antenna, Heatsinks 
+ 

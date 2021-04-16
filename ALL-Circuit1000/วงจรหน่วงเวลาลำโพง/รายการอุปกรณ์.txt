@@ -1,0 +1,9 @@
+C1    100 uF 40V electrolytic
+C2    100 uF 40V electrolytic
+D1    1N4007
+D2    1N4148
+Q1    BC547
+R1    33 kohm  0.25W
+R2    2.2 kohm 0.25W
+RELAY 24V DC relay, coil resistance >300 ohm
+

@@ -1,0 +1,8 @@
+R1= 56ohm 2W Q1= 2N3055 
+R2= 330ohm Lin. pot. T1=220V@18V 1.5A 
+C1= 2200uF 35V 
+C2= 100uF 35V D1= 18V 1.5W  zener 
+C3= 10uF 25V 
+C4= 220uF 25V  
+C5= 100nF 100V  
+GR1= 4 X 1N4007  

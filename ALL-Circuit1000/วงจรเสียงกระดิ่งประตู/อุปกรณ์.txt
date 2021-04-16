@@ -1,0 +1,7 @@
+R1=470Kohm C1=22uF 25V Q1-3= BC 550 
+R2=22Kohm C2=470uF 25V Q2= BC 560 
+R3=3.9Kohm C3=1 uF 25V BATT=4X1,5V or external pack 6Vdc 
+R4-5=330 ohm D1=1N4001 SP= Speaker 8R /0,5W 
+R6=2.2Kohm D2=LED RED 3mm  
+R7=1.2Kohm IC1=7413 All Resistors is 1/4W 5% 
+

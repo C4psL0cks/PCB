@@ -1,0 +1,15 @@
+R = light resistor
+R1 = 4.7 K
+R2 = 1.2 K
+R3 = 2.2 K
+R4 = 1.2 K
+R5 = 1.2 K
+R6 = 2.7 K
+R7 = 100 K
+C1 = 10 uf/16V 
+TR1 = BC107-BC108 NPN (CV7644) 
+TR2 = BC107-BC108 NPN (CV7644)
+TR3 = BC557-BC558-BC327 PNP
+D1 = 1N4148 Diode 
+RELAY = 12V relay
+

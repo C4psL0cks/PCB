@@ -1,0 +1,7 @@
+R1= 22Kohm C1-7-9= 100nF 1KV V1= ECC81  
+R2-3= 1Kohm C2= 220uF 350V V2= 6BX7 
+R4-5= 1.5Kohm C3= 150nF 400V T1= 220V@2X250V/6.3V/6.3V 
+R6-7= 470Kohm C4= 100uF 25V T2=Audio transformer 
+R8-9= 1Kohm 2W C6-8= 2X100?F 350V  
+RV1= 250Kohm Log. pot. D1-2= 1N4007 
+

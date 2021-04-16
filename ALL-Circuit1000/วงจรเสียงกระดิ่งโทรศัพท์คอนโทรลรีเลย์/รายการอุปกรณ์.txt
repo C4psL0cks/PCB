@@ -1,0 +1,11 @@
+R1,R4 10K   
+R2  100K Trimmer   
+R3  750 Ohm   
+R5 470 Ohm   
+C1 0.5uf 120V   
+C2 100uf 25V   
+D1,D2  1000V 1A Diode 1N4007 
+D3 10V Diac HS-10 
+Q1 NPN Transistor 2N2222 
+RY1 Relay 12V Coil RY12C 
+

@@ -1,0 +1,8 @@
+Light intensity sensor
+TSL250 sensor is used. First part of circuit U1A, U1B function as logarithmic amplifier.
+This is important if we want to have same sensitivity over entire measuring range.
+Linearity of log amp is good enough, only 1-2% deviation. 
+If someone wants better he might consider using LOG100 (Burr Brown). Function of U3 is : (U3A-U3B)*(Amp+1). 
+When circuit is build output of circuit must be set to zero - 0 V at complete dark. You can do this by turning P1. 
+Becouse of transistor negative temp. coeficient, circuit must be compensated.
+Use RES R4 with positive temp coef. of 3400ppm/K.

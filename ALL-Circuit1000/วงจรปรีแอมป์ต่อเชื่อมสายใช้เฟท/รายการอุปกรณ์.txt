@@ -1,0 +1,13 @@
+Preamp Cable parts list
+Q1 J201 N-channel JFET 
+R1 3.0 Mohm 1/8-watt 5% resistor 
+R2 20 Kohm 1/8-watt 5% resistor 
+R3 2.2K ohm 1/8-watt 5% resistor 
+P1 1/4-inch phone plug, Switchcraft 280 (straight) or 226 (right angle)  
+P2 3-pin XLR plug, Switchcraft A3M or Neutrik equivalent  
+
+1/8 watt resistors are necessary for the circuit to fit in the space inside the 1/4 inch phone plug. 
+ 
+
+
+

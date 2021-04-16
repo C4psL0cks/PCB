@@ -1,0 +1,28 @@
+C1  22uf 250V Electrolytic Capacitor  
+C2  22uf 250V Electrolytic Capacitor  
+C3  0.1uf Disc Capacitor  
+C4  0.01uf Disc Capacitor  
+C5  0.0047uf Disc Capacitor  
+R1  47K 1/2 W Resistor  
+R2, R4   6.8K 1/2 W Resistor  
+R3, R5   1M 1/2 W Resistor  
+R6    3.3K 1/2 W Resistor  
+R7, R8, R9    1K 1/2 W Resistor  
+R10, R11, R12   10K Pot  
+D1   1N4004 Diode  
+Q1, Q2   2N3904 NPN 
+Q3, Q4, Q5     106B1 SCR
+T1  10K:600 Ohm Audio Transformer  
+S1  SPDT Switch  
+J1, J2, J3       AC Socket  
+MISC  AC Line Cord, Crystal Microphone, Case, Wire  
+
+
+Notes:
+1. R10, R11 and R12 control the response of the different lights. 
+
+2. The circuit can handle up to 300 watts per channel. 
+
+3. This circuit is NOT isolated from the 115 Volt line. If it is used with the case opened or not installed in a case, you could recieve a bad shock or be killed. 
+
+4. You can also use the Teccor S2003LS1 SCR for SCR1. These give better sensitivity and brightness than the 106B1 units. 

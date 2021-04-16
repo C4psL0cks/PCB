@@ -1,0 +1,6 @@
+อุปกรณ์
+  R1 = 100K       C1 = 22nF   L1,L3 = 820nH            BNC connector
+  R2 = 4K7     C2,C5 = 1nF       L2 = 1.8 uH          
+  R3 = 12K        C3 = 100nF     L4 = T-94-2 (Amidon)  Morse-key, single pole
+  R4 = 18 Ohm     C4 = 100pF     Q1 = BC547            All-metal case
+xtal = 10Mhz   C6,C7 = 330pF     Q2 = 2N2219(A)

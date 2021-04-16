@@ -1,0 +1,14 @@
+อุปกรณ์   445KHz SSB Excitor
+T1 and T3 are constructed using 1/4" ferrite rings. T1: Twist together three lengths of thin enamelled wire and wind 18 turns on the ferrite ring. The tap of the secondary is the START of one winding connected to the END of a second winding. T3: the same as T1 but 4 lengths of enamelled wire are used. T2: the AF driver fransformer (usually blue), stolen from the cheap'n-nasty AM radio. T4: another IF transformer from the same AM radio. 
+
+
+อุปกรณ์  SSB Driver
+L3 is chosen to oscilate 455 KHz LOWER than the band you want. For 3.7MHz you alter the turns to get this to oscillate at 3.245 MHz with the 50 pf variable set to mid position. T1 & T3: Twist together three lengths of thin enamelled wire and wind 10 turns on the ferrite ring. The tapping is the START of one winding connected to the END of a second winding. T2 is the same as T1/T3 but only two wires are twisted together. 
+
+L1, L2 and "C" are chosen for the frequency band you want. L1 tapping is 25% of the number of turns, L2 tapping is about 10%. The capacitor "C" should be about HALF the wavelength (40 pf on 80 meters) and L wound to resonate at the correct frequency (this will be vary depending upon the former you use). 
+
+
+อุปกรณ์  HF PA
+T1 is also wound on a 1/4" ferrite ring; 10 turns with a 2 turn tapping drive to the PA transistor. T2: Twist together two lengths of thin enamelled wire and wind 10 turns on a 1/4" ferrite ring. The center-tap is the START of one winding connected to the END of a second winding. 
+
+

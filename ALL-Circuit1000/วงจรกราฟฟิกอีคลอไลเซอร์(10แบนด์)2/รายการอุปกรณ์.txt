@@ -1,0 +1,15 @@
+R1....20= 10Kohms C4= 10nF polyester C18= 68pF polysterine 
+R21....40= 1Mohms C5= 47nF polyester C19= 360pF polysterine 
+R41= 10Kohms C6= 4.7nF polyester C20= 36pF polysterine 
+R42= 1Kohms C7= 22nF polyester C21= 4.7uF polyester 
+R43.....52= 2.2Kohms C8= 2.2nF polyester C22-23= 33pF polysterine 
+R53.....62= 47Kohms C9= 12nF polyester C24= 10uF 25V 
+R63-64-66-67= 47Kohms C10= 1.2nF polyester C25-26= 47uF 25V 
+R65= 10Kohms C11= 5.6nF polyester C27...32= 47nF polyester 
+R68-69= 47 ohms 1/2W C12= 560pF polysterine IC1...3= TL074 
+RV1....10= 100Kohms  lin FADER C13= 2.7nF polyester S1= 2X4 SW for stereo 
+RV11= 10Kohms  log. C14= 270pF polysterine  
+C1= 180nF polyester C15= 1.5nF polyester  
+C2= 18nF polyester C16= 150pF polysterine  
+C3= 100nF polyester  C17= 680pF polysterine  
+

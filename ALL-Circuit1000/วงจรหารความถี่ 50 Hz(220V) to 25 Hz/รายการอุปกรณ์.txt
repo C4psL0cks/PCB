@@ -1,0 +1,6 @@
+R1= 10Kohm R8= 47 ohm IC1= 4011 
+R2= 100Kohm R9-10-11= 100Kohm T1= 110/220Vac //8V 100mA 
+R3= 680 ohm C1= 1000uF 25V D1-2= 1N4007 
+R4= 1Mohm C2-3= 100nF 100V ceramic D3= 5.1V 0.5W Zener 
+R5-6-7= 100Kohm C4-5= 100pF ceramic D4-5= 1N4148 
+

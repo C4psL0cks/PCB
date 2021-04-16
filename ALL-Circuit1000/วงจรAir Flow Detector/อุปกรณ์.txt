@@ -1,0 +1,13 @@
+R1  100 Ohm 1/4W Resistor  
+R2  470 Ohm 1/4W Resistor  
+R3  10k 1/4W Resistor  
+R4  100K 1/4W Resistor  
+R5  1K 1/4W Resistor  
+C1  47uF Electrolytic Capacitor  
+U1  78L05 Voltage Regulator  
+U2  LM339 Op Amp  
+L1  #47 Incandescent lamp with glass removed (See "Notes")  
+D1  LED  
+ 
+Notes:
+1. The glass will have to be removed from L1 without breaking the filament. Wrap the glass in masking tape and it in a vise. Slowly crank down until the glass breaks, then remove the bulb and carefully peel back the tape. If the filament has broken, you will need another lamp. 

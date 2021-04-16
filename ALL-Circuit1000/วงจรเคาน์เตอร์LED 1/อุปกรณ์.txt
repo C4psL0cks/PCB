@@ -1,0 +1,4 @@
+R1-R7  470 Ohm 1/4 Watt Resistor  
+U1  74LS90 TTL BCD Counter 
+U2 74LS47 TTL Seven Segment Display Driver  
+DISP1 1 Common Anode 7 Segment LED Display 

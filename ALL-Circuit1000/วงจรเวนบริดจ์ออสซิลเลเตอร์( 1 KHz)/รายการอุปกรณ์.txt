@@ -1,0 +1,6 @@
+R1= 1.5Kohm TR1= 10Kohm Trimmer Q1= BC550C 
+R2= 12Kohm C1-2= 10nF 100V polyester Q2= BC560C 
+R3-4-5= 10Kohm C-3= 100nF 100V  All R is metal film 1% 
+R6= 2.7Kohm D1-4= 1N4148 
+R7-8= 10ohm IC1= TL071-NE5534-LM741 
+

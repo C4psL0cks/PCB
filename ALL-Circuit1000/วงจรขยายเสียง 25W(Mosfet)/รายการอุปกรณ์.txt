@@ -1,0 +1,28 @@
+R1,R4 = 47K 1/4W Resistors
+R2 = 4K7 1/4W Resistors 
+R3 = 1K5 1/4W Resistors 
+R5 = 390R 1/4W Resistors 
+R6 = 470R 1/4W Resistors 
+R7 = 33K 1/4W Resistors 
+R8 = 150K 1/4W Resistors 
+R9 = 15K 1/4W Resistors 
+R10 = 27R 1/4W Resistors 
+R11 = 500R 1/2W Trimmer Cermet
+R12,R13,R16 = 10R 1/4W Resistors 
+R14,R15 = 220R 1/4W Resistors 
+R17 = 8R2 2W Resistor 
+R18 = R22 4W Resistor (wirewound)    
+C1 = 470nF 63V Polyester Capacitor 
+C2 = 330pF 63V Polystyrene Capacitor 
+C3,C5 = 470uF 63V Electrolytic Capacitors 
+C4,C6,C8,C11 = 100nF 63V Polyester Capacitors 
+C7 = 100uF 25V Electrolytic Capacitor 
+C9 = 10pF 63V Polystyrene Capacitor 
+C10 = 1uF 63V Polyester Capacitor 
+Q1-Q5 = BC560C 45V100mA Low noise High gain PNP Transistors 
+Q6 = BD140 80V 1.5A PNP Transistor 
+Q7 = BD139     80V 1.5A NPN Transistor 
+Q8 = IRF532 100V 12A N-Channel Hexfet Transistor 
+Q9 = IRF9532 100V 10A P-Channel Hexfet Transistor 
+
+ 

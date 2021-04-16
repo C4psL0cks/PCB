@@ -1,0 +1,15 @@
+<HTML>
+<BODY>
+<blockquote>
+<center><H1>Ç§¨ÃIgnition Coil Buzz Box</H1></center>
+<p>
+<IMG src="001.gif"> <br>
+Here's a circuit to create a buzzcoil using a standard automotive ignition coil. A 556 dual timer is used to establish the frequency and duty cycle of the coil current. One of the timers is used as an oscillator to generate the 200 Hz rectangular waveform needed to control the (IRF740 MOSFET) while the second timer switches the oscillator on and off as the breaker points open and close (closed = on). The result is a steady stream of sparks from the ignition coil spaced about 5 milliseconds apart while the breaker points are closed. 
+Operation: 
+
+Pin 8 and 12 are the threshold and trigger inputs of one timer which are driven by the breaker points and produce an inverted signal at the timer output (pin 9). When the points are closed to ground, pin 9 will be high and visa versa. The signal at pin 9 controls the reset line (pin 4) of the second timer and holds the output at pin 5 low while pin 4 is low and pins 8 and 12 are high (points open). The 15K and 4.7K resistors and 0.33uF capacitor are the timing components that establish the frequecy and duty cycle of the second timer which is about 4 milliseconds for the positive interval and 2 milliseconds for the negative. During the positive time interval, the MOSFET gates are held high which causes the ignition coil current to rise to about 4 amps. This equates to about 80 millijoules of energy in the coil which is released into the spark plug when the timer output (pin 5) moves to ground, turning off the MOSFET. A 12 volt zener diode is placed at the junction of the 10 and 27 ohm resistors to insure the MOSFET gate input never goes above 12 volts or lower than -0.7 volts. A 200 volt/5 watt zener is used at the MOSFET drain to limit the voltage to +200 and lengthen the spark duration. The circuit should operate reliably with a shorted plug, however operating the circuit with no load connected (plug wires fallen off, etc.) may cause a failure due to most of the power being absorbed by the zener. You can also use a transient voltage suppressor (TVS) such as the 1.5KE200A or 1.5KE300A in place of the zener. It's probably a better part, but hard to obtain
+<br>
+<HR  sizee=1>
+</blockquote>
+</BODY>
+</HTML>

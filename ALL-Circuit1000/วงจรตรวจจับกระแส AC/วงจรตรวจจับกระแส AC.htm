@@ -1,0 +1,12 @@
+<html>
+<body>
+<blockquote>
+<center><h1>วงจรตรวจจับกระแส AC</h1></center>
+<img  src="001.gif"> <br>
+This circuit will detect AC line currents of about 250 mA or more without making any electrical connections to the line. Current is detected by passing one of the AC lines through an inductive pickup (L1) made with a 1 inch diameter U-bolt wound with 800 turns of #30 - #35 magnet wire. The pickup could be made from other iron type rings or transformer cores that allows enough space to pass one of the AC lines through the center. Only one of the current carrying lines, either the line or the neutral should be put through the center of the pickup to avoid the fields cancelling. I tested the circuit using a 2 wire extension cord which I had separated the twin wires a small distance with an exacto knife to allow the U-bolt to encircle only one wire. 
+The magnetic pickup (U-bolt) produces about 4 millivolts peak for a AC line current of 250 mA, or AC load of around 30 watts. The signal from the pickup is raised about 200 times at the output of the op-amp pin 7 which is then peak detected by the capacitor and diode connected to pin 7. The second op-amp is used as a comparator which detects a voltage rise greater than the diode drop. The minimum signal needed to cause the comparator stage output to switch positive is around 800 mV peak which corresponds to about a 30 watt load on the AC line. The output 1458 op-amp will only swing within a couple volts of ground so a voltage divider (1K/470) is used to reduce the no-signal voltage to about 0.7 volts. An additional diode is added in series with the transistor base to ensure it turns off when the op-amp voltage is 2 volts. You may get a little bit of relay chatter if the AC load is close to the switching point so a larger load of 50 watts or more is recommended. The sensitivity could be increased by adding more turns to the pickup. 
+
+<hr  size=1>
+</blockquote>
+</body>
+</html>

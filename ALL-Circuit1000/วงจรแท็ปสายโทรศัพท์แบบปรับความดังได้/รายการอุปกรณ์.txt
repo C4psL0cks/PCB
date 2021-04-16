@@ -1,0 +1,7 @@
+2X RJ-11 phone Jacks
+1X 0.22uF 200V capacitor
+1X 4.7K 1/2W resistor
+1X 600 ohm to 600 ohm modem transformer
+2X 5V 1W zener diodes
+1X 10K audio taper potentiometer
+1X RCA audio jack

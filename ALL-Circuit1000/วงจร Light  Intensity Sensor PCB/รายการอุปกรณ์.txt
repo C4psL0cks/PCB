@@ -1,0 +1,17 @@
+Part list: 
+Qty Value Device 
+1    1M RES 10mm 
+1    1k f(T) RES 10mm 
+1    5.1V ZenerD 7,5mm 
+2    10k RES 10mm 
+1    15k RES 10mm 
+4    47k RES 10mm 
+1   100 RES 10mm 
+1   100k Trimer 
+3   100n CAP 5mm 
+1   200p CAP 5mm 
+2   BC107 Trans TO92 
+2   JP1E jmp 2pin 
+1    MA03-1 jmp 3pin 
+2   TL741 Dual OpAmp 
+1   TSL250 Light to voltage sensor 

@@ -1,0 +1,18 @@
+<html>
+<body>
+<center><h1>               วงจร Stepper Motor Driver(ULN2803)           </h1></center>
+<br><img  src="  001.gif   "> <br>
+A Stepper Motor Driver I designed this little circuit to teach my students the principles of stepper motor control. Most similar circuits I have seen use a driver chip. This way you supply the circuit with a pulse - which determines the speed of rotation - and a direction and the chip will provide the step sequence. This is too simple for a class full of high flying computer students and we decided to drive the motor directly and let the computer do all the work. This has an additional advantage. Stepper motors have four coils and turn with the signal 1-2-3-4-1-2-3- 4 and so on. 4-3-2-1-4-3-2-1 will reverse the direction. The faster you send sequence, the faster the rotor will turn. This is the signal that ordinary driver chips supply. 
+Computer control enables you to send half step signals. Energise one coil, then two adjacent coils then the next coil and so on. Like this: 1 - 1+2 - 2 - 2+3 - 3 - 3+4 - 4 - 4+1 - 1 - and so on. The motion of the motor is now much smoother, particularly at lower speeds. 
+ <br>
+The circuit diagram is quite straightforward. We use a 2803 driver chip, which takes care of any back e.m.fs. Four lines are connected to the coils of the stepper motor. This leaves us with four spare lines which are connected to four LEDs. Why? Well, it enables us to test the chip without actually connecting a motor and, more importantly, the LEDs lend a certain baroque look to the project which I have come to appreciate. 
+The ULN 2803 is current sinking, hence the 6V line is connected to the two common wires of the stepper motor and each phase is connected to one of the driver lines. 
+ <br>
+The PCB layout to the circuit is on the right. The LEDs are arranged in a 'circle' to show the rotary nature of the pulses and there is a link which will have to be broken and one that has to be set if you don't have a user port and use the printer port instead. D5 is the 'Power ON' LED and there are two links to the power lines should you want to connect a logic probe. Notice that the circuit needs an external power supply, the user port can drive only the LEDs. Notice the link with the common in the middle. This should be made either with a small computer type selector plug or with a bit of wire, depending on whether you use the user port or the printer port. 
+A word of warning. The ULN 2803 can drive 0.5A per line, so if your stepper motor needs more than this you might burn out the chips. I tend to drive the larger motors at half voltage and I have never yet burned out a chip, though some of them got quite warm. 
+As usual I have provided a zipped demonstration program called !StepCon, which will demonstrate single step, complete rotation, backwards, forwards and half step driving. As a bonus there is a machine code program which will also drive the motor, but it only works if you have a user port. Finally there is a photograph of the finished project. 
+<br>
+If you use a 12V stepper motor and drive the circuit via the printer port, the LED resistors should be doubled in value. The same applies for the 1N4001 diode. If it gets too hot, pick a diode that can carry more current or replace it with a link. The circuit is designed for the type of stepper motor that generally has six wires - two commons and four phases. There is a four wire type of stepper motor which relies on polarity reversal. This project will not drive such a motor, though I would love to talk to anyone that has designed a computer driven circuit for it. 
+<hr  size=1>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<html>
+<body>
+<center><h1>      วงจรแปลงสัญญาณอนาล็อกเป็นดิจิตอล 12 บิท ผ่านไอซีเบสิกแสตมป์                 </h1></center>
+<br><img  src="  001.gif   "> <br>
+This code snippet can be inserted almost anywhere in your program,  since the uses for this circuit are limitless <br>
+
+FOR outnum=0 to x 'replace x by the number of inputs you wish to access  <br>
+initstr=%10000000 + (outnum<<4) + %00001100  <br>
+LOW CS  <br>
+SHIFTOUT Din,SCLK,1,[initstr]  <br>
+SHIFTIN Dout,SCLK,2,[result\12]  <br>
+HIGH CS  <br>
+
+Din,Dout,CS,and SCLK are constants, being the number of the pins connected to the corresponding MAX186 pins (ie, here, CS=1,SCLK=2,Din=3 and Dout=4) 
+
+If you find any use for this circuit, i'd like to hear about it! Hey, after all, I'm the only one posting circuits here for the time being :) 
+<hr  size=1>
+</body>
+</html>

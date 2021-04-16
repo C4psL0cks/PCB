@@ -1,0 +1,9 @@
+R1, R2, R3, R5, R6 = 10 k
+R4 = 4,7 k
+P1, P2 = 100 k  linear 
+C1 = 100 uF/16 V 
+C2, C8 = 4,7 uF/16 V 
+C3, C4 = 33 nF 
+C5, C6 = 3,3 nF 
+C7 = 22 uF/16 V 
+IC1 = LM 741 

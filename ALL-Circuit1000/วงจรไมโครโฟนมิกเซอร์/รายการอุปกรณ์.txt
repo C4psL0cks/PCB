@@ -1,0 +1,9 @@
+R1, R2, R3  1K 1/4W Resistor  
+R4, R5, R6 10K Logarithmic Pot  
+R7  1Meg 1/4W Resistor  
+R8, R10  10K 1/4W Resistor  
+R9, R11  100K Linear Pot  
+C1, C2, C5, C6 0.1uF Ceramic Disc Capacitor  
+C3, C4   22nF Ceramic Disc Capacitor  
+U1, U2    741 Op Amp  
+J1, J2, J3    Input Jacks Of Your Choice  

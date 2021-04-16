@@ -1,0 +1,33 @@
+UNKNOWN {
+	BORDER-RIGHT: #336699 1px solid; BORDER-TOP: #336699 1px solid; BORDER-LEFT: #336699 1px solid; COLOR: #336699; BORDER-BOTTOM: #336699 1px solid; BACKGROUND-COLOR: #ddddff
+}
+A.link1 {
+	FONT-SIZE: 10px; COLOR: #696969; FONT-FAMILY: Tahoma, Arial; TEXT-DECORATION: none
+}
+A.link1:hover {
+	FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: Tahoma, Arial; TEXT-DECORATION: underline
+}
+A.link2 {
+	FONT-SIZE: 10px; COLOR: #cccccc; FONT-FAMILY: Tahoma, Arial; TEXT-DECORATION: none
+}
+A.link2:hover {
+	FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Tahoma, Arial; TEXT-DECORATION: underline
+}
+A.link3 {
+	FONT-SIZE: 13px; COLOR: #0066cc; FONT-FAMILY: Tahoma, Arial; TEXT-DECORATION: none
+}
+A.link3:hover {
+	FONT-SIZE: 13px; COLOR: #000000; FONT-FAMILY: Tahoma, Arial; TEXT-DECORATION: underline
+}
+A.link4 {
+	FONT-SIZE: 10px; COLOR: #0066cc; FONT-FAMILY: Tahoma, Arial; TEXT-DECORATION: none
+}
+A.link4:hover {
+	FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: Tahoma, Arial; TEXT-DECORATION: underline
+}
+TABLE.main {
+	BORDER-RIGHT: #ddd 1px solid; BORDER-TOP: #ddd 1px solid; BORDER-LEFT: #ddd 1px solid; BORDER-BOTTOM: #ddd 1px solid
+}
+TD {
+	BORDER-RIGHT: 0px solid; BORDER-TOP: 0px solid; BORDER-LEFT: 0px solid; BORDER-BOTTOM: 0px solid
+}

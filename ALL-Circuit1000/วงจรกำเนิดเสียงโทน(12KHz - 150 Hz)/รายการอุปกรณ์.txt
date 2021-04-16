@@ -1,0 +1,9 @@
+U1, U1 NE555 timer IC 
+R1 1 megohm potentiometer 
+R2 1 1k resistor 
+C1 0.001uf ceramic capacitor 
+C2 0.1uF ceramic capacitor 
+SPKR1 4 or 8 ohm miniature speaker 
+all resistors are 5 or 10 percent tolerance, 1/4-watt 
+all capacitors are 10 percent tolerance, 
+rated 35 volts or higher 

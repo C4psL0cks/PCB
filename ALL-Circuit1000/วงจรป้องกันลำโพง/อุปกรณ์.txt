@@ -1,0 +1,10 @@
+R1-2=27 Kohms  R13=1.5 Kohms Q1-2-3=BC337 
+R3=1.4 Kohms   R15=4.7 Kohms Q4=BC639 
+R4=1 Mohms   R16=33 Kohms D1=1N4148 
+R5-14-17=3.3 Kohms   R18=1.5 Kohms 5W D2=1N4004 
+R6-7=100 Kohms   RTH=KTY81-122 D3=15V 1.5W Zener 
+R8=47 Kohms    C1-2=100uF 63V D4=1N4002 
+R9-11=120 Kohms   C3=470nF 100V MKT D5-6=LED 
+R10=470 Kohms   C4-5=47uF 25V RL1=24V Relay  
+R12=15 Kohms   IC1=LM393 
+

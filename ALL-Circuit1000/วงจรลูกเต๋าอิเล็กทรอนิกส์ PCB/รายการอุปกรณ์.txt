@@ -1,0 +1,20 @@
+R1 y R4
+8.2 K Ohms, 1/4 W 
+R2 3.3 K Ohms, 1/4 W 
+R3 470 K Ohms, 1/4 W 
+R5 1.5 K Ohms, 1/4 W R6 1 K Ohms, 1/4 W 
+R7 2.7 K Ohms, 1/4 W
+ R8, R9 y R10 2.2 K Ohms, 1/4 W 
+R11 330 Ohms, 1/4 W R12 270 Ohms, 1/4 W
+ R13 150 Ohms, 1/4 W 
+C1 47 uF x 16v, electrólitico
+ C2 680 nF, poliester 
+C3 470 nF, poliester 
+C4 22 nF, poliester
+ P Pulsador Normalmente Abierto (NA) 1, 2, 3, 4, 5, 6, 7
+ Diodos LED rojos de 5mm
+ T1, T2, T3 y T4 BC547 IC1 NE555 (Timer 555)
+Descripción Técnica
+IC2 4029 CMOS, no HC 
+Contador up/down preseteable
+

@@ -1,0 +1,21 @@
+R1-19= 1Kohm 5W R34-35= 0.1ohm 5W C14-17= 100uF 100V 
+R2-3= 4.7Kohm R36-43= 39ohm C15= 100nF 250V polyester 
+R4-5= 22ohm R37-42= 5.6Kohm 1W Q1-2-3= BC547  
+R6-14= 10Kohm R38-41= 220ohm 5W Q4-5-6= BC557  
+R7-8= 1Kohm R39-40= 0.1ohm 5W Q7-11-12= BD140 or BC640 
+R9-23*=10K ohm  R44-45= 0.1ohm 5W Q8= BC549  
+R10= 10ohm *see circuit sch. R46= 4.7ohm 2W Q9-10-15= BD139 or BC639 
+R11-13= 2.2Kohm R47= 100ohm Q13-14= MJ15004 
+R12= 22Kohm C1= 2.2uF 25V Q16-17= MJ15003 
+R15-16= 22ohm C2-6= 330pF ceramic TR1= 2K2 Trimmer 
+R17-18=  4.7Kohm C3-8= 100uF 100V  F1-2= 5A Fuse Fast 
+R20-25= 390ohm C4-9= 100nF 250V  D1-3= 5.1V 0.5W Zener 
+R21= 6.8Kohm C5= 100nF 100V polyester D2= 62V/5W Zener or 47v and 15V in series 
+R22=  4.7Kohm C7= 100uF 25V D4-5= 1N4004 
+R24-26-33= 220ohm C10= 1.5nF 100V polyester L1=10 turns diameter 1mm in 15mm diameter tube 
+R27-32= 100ohm 1W C11-12= 1.5nF 100V polyester 
+R28...31= 100ohm C13-16= 100nF 250V polyester *Use R23=6k8 for 4 ohm loudspeakers 
+
+ .
+ 
+ 

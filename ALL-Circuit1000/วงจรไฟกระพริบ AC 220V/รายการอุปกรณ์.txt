@@ -1,0 +1,12 @@
+R1___________100K   1/4W Resistor
+R2,R5__________1K   1/4W Resistors
+R3,R6________470R   1/4W Resistors
+R4____________12K   1/4W Resistor
+C1__________1000uF  25V Electrolytic Capacitor
+D1-D4_______1N4007  1000V 1A Diodes
+D5__________P0102D  400V 800mA SCR
+Q1___________BC327  45V 800mA PNP Transistor
+Q2___________BC337  45V 800mA NPN Transistor
+PL1__________Male Mains plug
+SK1__________Female Mains socket
+

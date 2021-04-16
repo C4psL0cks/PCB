@@ -1,0 +1,26 @@
+
+Parts list
+2 x 1N4148 diodes
+2 x 5.1 volt 1/4W zeners
+2 x 4700 ohm resistors
+2 x 100 nFcapacitors
+2 x 47uF 16V el.capacitors
+2 x DS1621 digital temperature sensors (Dallas Semiconductor)
+1 x LM2936-z5 low-droput 5V regulator(National Semiconductor)
+1 x DB9 female plug. 
+
+
+
+displays both indoor and outside temperature on the Windows taskbar (see figure) 
+plugs in any free PC com port 
+range -20 ... +125 Õß»“   (-4 ... 257 F) 
+basic accuracy and resolution 0.5∞C 
+
+data logging on easily readable text file 
+sampling rate 1, 5, 30 or 60 seconds 
+one or two temperature sensors (upgradeable up to 8) 
+com port powered, no external power supply required 
+easy to build, no exotic nor programmable parts inside 
+no calibration required 
+full source code available for free (educational and non-commercial uses only) 
+

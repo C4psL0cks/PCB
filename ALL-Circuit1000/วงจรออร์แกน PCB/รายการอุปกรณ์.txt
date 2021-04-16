@@ -1,0 +1,20 @@
+R1-R8   250K Trim Or Regular Pot  
+R9, R12   100 Ohm 1/4 W Resistor  
+R10   10K 1/4 W Resistor  
+R11   220 Ohm 1/4 W Resistor  
+R13   5K Pot  
+C1  0.01uF Capacitor  
+C2   0.1uF Capacitor  
+Q1   2N4891 Unijunction Transistor  
+Q2   2N2222 Transistor 2N3904 
+S1-S8   SPST Switch  
+SPKR 1   Ohm 2 W Speaker  
+MISC   Wire, Circuit Board, Knobs For Pots  
+
+
+Notes
+1. You can tune the organ to any instrument by adjusting R1-R8. I used a clarinet to tune mine, but you can of course use any instrument you wish. 
+
+2. The circuit may drain a 9V battery fairly quickly at full volume. You may remove R11 for even more sound. 
+
+3. You can rig up a relay and a foot switch to change C1 (for a different octive) while your playing. 

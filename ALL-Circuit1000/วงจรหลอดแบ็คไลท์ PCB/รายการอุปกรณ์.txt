@@ -1,0 +1,16 @@
+C1  0.0047uf Mono Capacitor 
+C2   0.1uf Disc Capacitor 
+D1, D2   1N4007 Diode 
+FTB   Filtered Blacklight Tube 
+IC1   555 Timer IC 
+P1   10k Trim Pot 
+Q1   TIP30 PNP Power Transistor 
+R1   470 Ohm Resistor 
+R2   270 Ohm Resistor 
+T1   Medium Yellow Inverter Transformer 
+MISC    IC Socket, Heat Sink For Q1, Screw, Nut, Wire and PC Board 
+
+Notes:
+1. P1 changes brightness of the black light tube.
+
+ 

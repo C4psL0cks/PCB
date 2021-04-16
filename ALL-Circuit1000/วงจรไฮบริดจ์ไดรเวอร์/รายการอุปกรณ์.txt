@@ -1,0 +1,9 @@
+This is one half of a H-bridge driver for a low current 5vdc Vin.
+Max 1.5 Amp out
+Q1 = 2N3904 NPN
+Q2 = 2N4403 PNP
+Q3 = MJE2955 PNP
+Q4 = MJE3055 NPN
+R1,R2,R3 = 10K ohm
+R4 = 1K ohm for V+ of 5v OR 2.2K ohm for V+ of 12v
+R5 = 50 ohm 1/2 watt for V+ of 5v OR 120 ohm 1 watt for V+ of 12v

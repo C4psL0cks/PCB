@@ -1,0 +1,7 @@
+R1  270K 1/4 W Resistor  
+R2  1.5K 1/4 W Resistor  
+R3  68K 1/4 W Resistor  
+R4  33K 1/4 W Resistor  
+C1  0.22uF 150 Volt Capacitor  
+Q1, Q2  2N4954 NPN Transistor  
+D1  1N645 Diode 

@@ -1,0 +1,6 @@
+R1= 33Kohm R8-11= 10Kohm C7-8= 100uF 40V 
+R2= 6.8Kohm R9-10= 0.47ohm  2W D1-2= 18V 0.5W zener 
+R3= 22Kohm C1= 1nF 63V D3-4= 1N4148 
+R4= 100Kohm C2-5= 47uF 40V IC1= NE5534 
+R5-7= 1Kohm C3-4= 100nF 63V Q1= 2SK135 
+R6= 330ohm C6= 4.7pF ceramic Q2= 2SJ50 

@@ -1,0 +1,19 @@
+
+This is very simple circuit. Its intended to be used as a door bell.
+ Just connetct switch to pin 2 and 4, and speaker to pin 1 and 2. Supply voltage is not critical, 5 V to 12 V should do the job. 
+With trimmers you can adjust the speed of melody, and volume of sound. All you have to do now is to conect 4 ohm speaker 1 W - 2 W. 
+
+
+Part list: Qty Value Device 
+1 10u ELKO 
+1 100u ELKO 
+1 1000u ELKO 
+2 100n CAP 5mm 
+1 4n7 CAP 5mm 
+2 10k trimer 
+1 18k RES 10mm 
+1 10k RES 10mm 
+1 WAGO 4p vrstna sponka 4 pin r=5.08mm 
+1 SAE800=SAB0600 gong chip 
+
+

@@ -1,0 +1,38 @@
+R1______________1M   1/4W Resistor
+R2______________3K3  1 or 2W Resistor (See Notes)
+R3_____________10K   1/2W Trimmer Cermet (See Notes)
+R4_____________33K   1/4W Resistor
+R5____________150K   1/4W Resistor
+R6______________2K2  1/4W Resistor
+R7_____________22K   1/4W Resistor
+R8______________4K7  1/4W Resistor
+
+C1,C2__________10nF   63V Ceramic or Polyester Capacitors
+C3_____________10pF   63V Ceramic Capacitor
+C4,C6_________100nF   63V Ceramic or Polyester Capacitors
+C5______________2?2   25V Electrolytic Capacitor
+C7____________100?F   25V Electrolytic Capacitor
+
+D1,D2,D4_____1N4148   75V 150mA Diodes
+D3_____________5 or 3mm. Red LED
+
+Q1,Q2,Q3,Q5___BC547   45V 100mA NPN Transistors
+Q4____________BC557   45V 100mA PNP Transistor
+
+L1_________________   (See Notes)
+L2_____________10mH  miniature Inductor
+
+Hook_______________   (See Notes)
+
+BZ1___________Piezo sounder (incorporating 3KHz oscillator)
+
+SW1,SW2________SPST  miniature Slider Switches
+
+B1_______________9V  PP3 Battery
+
+Clip for PP3 Battery
+
+L1 is formed winding 20 to 30 turns of 0.4mm. diameter enameled copper wire on R2 body and soldering the coil ends to the resistor leads. You should fill R2 body completely with coil winding: the final turn's number can vary slightly, depending on different 1 or 2W resistor types actual length (mean dimensions for these components are 13-18mm. length and 5-6mm. diameter). 
+
+The hook is made from non-insulated wire 1 - 2mm. diameter (brass is well suited). Its length can vary from about 5 to 10cm. (not critical). 
+

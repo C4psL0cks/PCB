@@ -1,0 +1,23 @@
+R1  10 Ohm 10W Or Greater Resistor  
+R2  Ballast Resistor, See "Notes"  
+D1, D2, D3   1N4007 Silicon Diode  
+C1, C2, C3   0.1 uF 2000V Capacitor  
+T1   9V 1A Transformer  
+S1   115V 2A SPST Switch  
+MISC    Case, Wire, Binding Posts (for output), Line Cord  
+
+
+Notes
+1. T1 is an ordinary 9V 1A transformer connected backwards for step up. 
+
+2. R1 MUST be installed on a LARGE heatsink. A good heatsink is the metal case the supply is built in. 
+
+3. R2 Protects the laser tube from excess current. It should be soldered directly to the anode terminal on the tube. To find R2, start with a 500K 10W resistor and work down until the tube lights and remains stable. 
+
+4. If you have trouble with the tube not starting easily, use a longer anode lead that is wrapped around the tube. 
+
+5. Depending on the transformer you use, the circuit may or may not work. I cannot guarantee the operation of this circuit. Build at your own risk. 
+
+
+
+--------------------------------------------------------------------------------

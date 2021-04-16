@@ -1,0 +1,6 @@
+5" Studio Monitor 
+Frequency Range: 80 Hz - 20 kHz
+
+High driver: Beyma T2030
+
+Bass driver: Beyma 5MP60/N

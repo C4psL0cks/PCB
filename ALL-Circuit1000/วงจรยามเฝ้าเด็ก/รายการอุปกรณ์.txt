@@ -1,0 +1,10 @@
+R1=15Kohms C1=22uF/25V Q1=BD139  
+R2-4=1Kohms   C2-3=100nF/100V MKT Q2=BD140 
+R3-7=1Kohms C4-9=1uF/25V IC1=TL072 
+R5=220Kohms C5-8=100pF/100V F1=Fuse 0,1A  
+R6=1Mohms C7-10=470uF/25V P1=470kohms Trimmer or potesiometer 
+R8-9=1Mohms C11=100nF/100V MKT TR1=220Vac/9V 0,2A Transformer 
+R10-11=47ohms C12=1000?F/25V M1=Electret condenset Micropfone 
+R12-14=10Kohms      D1-5=1N4002 S1=2X2 1A SW 
+R13=1Kohms LD1=Led 3mm RED BATT=9V Battery  
+R15=2.2Kohms RL1=Small RELAY 12V DC  

@@ -1,0 +1,5 @@
+R1=270ohm C1-2=100nF 100V ceramic IC2=74HCT13 
+R2-5=1Kohm RV1=10Kohm trimmer Q1=BP103 Phototransistor Siemens 
+R3=10Kohm D1-2=1N4148  
+R4=100ohm IC1=CA3130  
+

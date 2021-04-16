@@ -1,0 +1,5 @@
+
+R1=270R 1/4W 2% C4-5=10uF 25V T1=220Vac/15VAC - 8A Mains Transformer 
+TR1=4k7 (Multiturn) D1-2=1N4002 (1A/100V) S1=2 Pole Single Throw Mains Switch 
+C1=10000uF 40V B1=25A Bridge Rectifier F1=250mA Fuse 
+C2-3=100 nF 100V Polyester IC1=LM338 

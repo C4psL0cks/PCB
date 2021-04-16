@@ -1,0 +1,9 @@
+R1 = 470K               
+N1,N2 = MC14093B
+R2 = 15M   
+T1 = 2N3906
+C1-C4 = 2N2 (2.2nF)                   
+D1 = 1N4001                
+Ry = Relay (12V or matching supply voltage)
+D2,3 = 1N4148             
+Sensor = Stainless Steel probes, brass, chrome, etc.

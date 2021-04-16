@@ -1,0 +1,6 @@
+R1=8.2Mohms R7=1Kohms C2-3=10uF 25V 
+R2-3=820Kohms R9-10=10Kohms D1=1N4148 
+R4=82Kohms TR1=10Kohms trimmer IC1=CA3130 
+R5=100Kohms TR2=25Kohms trimmer VV1=100uA instrument  
+R6-8=47Kohms C1=1.5uF 25V  
+ 

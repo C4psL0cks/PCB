@@ -1,0 +1,10 @@
+C1  100uf 25V Electrolytic Capacitor  
+C2,C3  0.01uf 25V Ceramic Disc Capacitor  
+C4  0.01uf 1KV Ceramic Disc Capacitor  
+R1  1K 1/4W Resistor  
+R2  2.7K 1/4W Resistor  
+Q1  IRF510 MOSFET  
+U1  TLC555 Timer IC  
+T1 1 6V 300mA Transformer  
+LAMP   4W Fluorescent Lamp  
+

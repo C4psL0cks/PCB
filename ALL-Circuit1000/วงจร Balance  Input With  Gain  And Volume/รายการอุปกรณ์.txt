@@ -1,0 +1,5 @@
+R1-2= 2.2Kohms metal film 1% C1-2= 68pF ceramic OR milar ICI= NE5532 -TL072 
+R3= 22Kohms metal film 1% C3= 47uF 25V RV1= 10Kohms Log. 
+R4= 6.8Kohmsmetal film 1% C4= 10uF 25V RV2= 47Kohms Log. 
+R5= 100ohms C5-6= 100nF100V cer. OR mkt J1=  Female CANNON plug  
+R6-7= 47Kohms C7= 10uF25V 

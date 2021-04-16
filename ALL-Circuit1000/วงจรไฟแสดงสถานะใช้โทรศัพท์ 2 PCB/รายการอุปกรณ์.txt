@@ -1,0 +1,8 @@
+R1= 100K 
+R2= 1M 
+C1=1uF/63V 
+T1=BF256B 
+D1..D4=1N4004 D5= 10V/1W 
+D6=Led red 
+ 
+ 

@@ -1,0 +1,5 @@
+อุปกรณ์ L  ของวงจรส่งและรับ 
+L1, L4=9 turns, .15mm wire on 4.5mm diameter tunable ferrite coil former
+L2=15 turns, .5mm wire, 5mm diameter
+L3=3.5 turns, .5mm wire, 5mm diameter
+

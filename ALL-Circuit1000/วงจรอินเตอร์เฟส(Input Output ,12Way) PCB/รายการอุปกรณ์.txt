@@ -1,0 +1,20 @@
+2 x 4081 AND gate
+2 x 4030 NOR gate
+2 x ULN2803 Driver
+1 x 74LS244 buffer
+12 x 560 ohm resistor
+12 x 100Kohm resistor
+1 x 10Kohm resistor
+1 x 47 uF electrolytic capacitor
+1 x 2.1mm power socket
+1 x DB25 PCB mount, right angle socket
+1 x serial cable (male to male)
+1 x 1 amp bridge rectifier
+1 x 7805 voltage regulator
+1 x 7812 voltage regulator
+12 x 3mm red LEDs
+2 x 0.01 uF greencap capacitors
+1 x PCB 
+
+ 
+  

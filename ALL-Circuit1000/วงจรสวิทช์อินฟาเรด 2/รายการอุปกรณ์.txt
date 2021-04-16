@@ -1,0 +1,21 @@
+R1 3k3 
+R2 1k 
+R3 22k 
+R4 220k 
+R5 1M 
+R6 3k3 
+B1 12 V 
+D1 1N4148
+D2 1N4003
+Q1 B109
+LED1 CQX35A
+IC1 IR1 available from Harrison Electronics
+IC2 4049
+IC3 CA555
+IC4 SN74HCT74 
+IC5 LM7805
+Relay 12 Volt coil with changeover contact
+C1 100u
+C2 22u 
+C3 100n 
+C4 2u2

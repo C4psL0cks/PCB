@@ -1,0 +1,20 @@
+อุปกรณ์เครื่องขยายเสียง
+R1=47Kohm C1-2-6-7=100nF 100V MKT Q5-6=IRF9540 
+R2-12=1Kohm C3-4=22uF 25V Q7-8=IRF540 
+R3-4=3.3Kohm C5=220pF styroflex TR1=5Kohm trimmer multiturn 
+R5=1.2Kohm C8-9=4700uF 63V TR2=1Kohm trimmer multiturn 
+R6=[1.2Kohm] 820ohm *See text C10=1uF 100V MKT F1-2=fuse 3A 
+R7=270ohm D1-2=15V 0.5W zener J1=2pin connector 2.54mm step 
+R8=220ohm IC1=LF411orAD711or LF351 J2=5pin connector 5mm step 
+R9=27Kohm Q1=BC550C  
+R10-11=22Kohm Q2=BC560C All Resistors 1/4W 1% metal film 
+R13-14-15-16=150ohm Q3-4=BC547B  
+
+อุปกรณ์แหล่งจ่ายไฟ
+T1=2X22Vac 3A //2X15Vac 0.5A C5-8=1000uF 25V IC2=7912 Regulator  
+T2=2X22Vac 3A C6-9=100nF 100V MKT F1=FUSE 2A slow block 
+BR1-3=400V 35A Bridge Rectifier  C7-10=10uF 25V S1=2X2 switch 10A 
+BR2=4 X 1N4002 C15=33nF 630V Class X2  JF1=3 pole male plug  
+C1...4-11...14=10000uF 63V IC1=7812 Regulator  
+ 
+

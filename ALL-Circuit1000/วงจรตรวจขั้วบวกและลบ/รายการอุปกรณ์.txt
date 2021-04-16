@@ -1,0 +1,7 @@
+R1  1K 1/4W Resistor  
+D1  Green LED  
+D2   Red LED  
+D4, D5, D6, D7       1N4001
+MISC     Board, Wire, Case, Probes 
+
+To use the circuit, just connect your probes to the source under test. If D1 lights up, the left most probe (on the schematic) is connected to positive. The opposite is true if the left probe is negative. If both LEDs are on, the source being probed is AC. 

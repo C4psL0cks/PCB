@@ -1,0 +1,21 @@
+C1, C2   0.1uf Ceramic Disc Capacitor  
+C3   100uf 25V Electrolytic Capacitor  
+R1   100K Ohm 1/4W Resistor  
+R2   1M Ohm 1/4W Resistor  
+R3   10K Pot  
+Q1   NPN Phototransistor  
+U1   741 Op Amp  
+U2   LM386 Audio Amp  
+SPKR1   8 Ohm Speaker  
+T1   8 Ohm:2K Audio Transformer  
+MISC   Wire, Board, Knob For R3, LASER Tube and Power Supply  
+
+
+Notes:
+1. In the transmitter schematic, no ballast resistor is shown because most small LASER power supplies already have one built in. Yours may differ, and a resistor may be needed. 
+
+2. The receiver should be kept away from bright lights. You may want to put a piece of wax paper in front of Q1 to keep the LASER from swamping it. 
+
+3. In order to get any decent amount of modulation, you may need to drive T1 with more then a watt. 
+
+4. The circuit can be made to transmit computer data with the use of two modem chips. 

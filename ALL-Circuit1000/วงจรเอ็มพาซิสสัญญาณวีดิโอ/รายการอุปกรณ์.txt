@@ -1,0 +1,8 @@
+R1=82ohm R10=2.2Kohm C8=100nF 100V MKT 
+R2=5.6Kohm R12=180ohm TR1=250ohm trimmer 
+R3-9-11=2.7Kohm R13=68ohm TR2=500ohm trimmer 
+R4=330ohm C1-4-5=100uF 16V D1=1N4148 
+R5=220ohm C2=2200uF 16V Q1-2-3=BC547 
+R6=470ohm C3=470pF ceramic  J1-2=Female RCA jack 
+R7=270ohm C6=470uF 16V J3=2pin connector 2.54mm step 
+R8=12Kohm C7=220uF 16V 

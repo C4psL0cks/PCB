@@ -1,0 +1,9 @@
+R1 = 1.5 k
+R2 = 820 k 
+R3 = 82 k 
+R4 = 8.2 k 
+R5 = 820 
+D1 = zenerdiode 9,1 V 
+D2 = germaniumdiode 
+T1 = BC 547B 
+M = meter 0-15 V 

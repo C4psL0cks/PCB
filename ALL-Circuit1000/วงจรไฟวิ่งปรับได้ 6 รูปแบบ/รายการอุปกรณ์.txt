@@ -1,0 +1,52 @@
+Resistors 
+R 1
+ 47 KW 
+R2
+ 100 KW Potentiometer 
+R3
+ 56 W 
+R4 – R9
+ 8.2 KW 
+R10 – R15
+ 47 W 
+
+All resistors are carbon composition type of 1/4 watt and tolerance of maximum 5%.
+
+Capacitors
+C 1
+ 1000mF, 16 V Electrolytic 
+C 2
+ 1mF, 16 V Electrolytic 
+C 3
+ 0.01mF Ceramic 
+
+Diodes, Transistors and Triacs
+D 1, D 2
+ IN 4007 
+D 3 – D 10
+ IN 4148 
+D 11 – D16
+ LED, Red color, 5mm 
+T 1 – T 6
+ BEL 187, NPN Transistor 
+T 7 – T 12
+ BT 136, 4A/400V 
+
+IC’s
+
+IC 1
+ 7805, Voltage regulator 
+IC 2
+ 555, Timer IC 
+IC3
+ 4017, Decade counter 
+
+Miscellaneous
+
+Switch    (S1)
+ 1 Pole 6 way  
+Transformer  (T)
+ 230 V / 9 – 0 – 9, 500mA 
+F 1, F 2
+ Fuse 
+  

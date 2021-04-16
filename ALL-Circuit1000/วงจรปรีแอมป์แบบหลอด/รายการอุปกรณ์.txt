@@ -1,0 +1,30 @@
+preamp
+R1-7=1Mohm R12-13=100ohm C9=4.7uF 250V* 
+R2=100Kohm 1W C1=220nF 250V* U1=ECC82 
+R3-8=1Kohm 1W C2=220pF ceramic or mylar U2=ECC81 
+R4=1.2Kohm 1W C3=2.2uF 350V* RV1=2X100Kohm log. 
+R5-11=5.6Kohm 2W C4=1000uF 16V RV2=2X100Kohm lin. 
+R6=100Kohm C5-6=2X50uF 450V RL1....6=Relay 12V 2X2 [1A]  
+R9=22Kohm C7=1uF 250V*  
+R10=100Kohm C8=220nF 630V *polypropylene or MKT 
+
+
+power suply
+R1=2.2Kohm 5W C8-13=10uF 16V IC3=7812  [1A] 
+R2-4=100Kohm 2W C10-15-19-20=47uF 25V T1=230Vac / 200V 0.15A 
+R3=680ohm  5W C16=470uF 25V T2=230Vac / 12V 3A 
+R5-6=220ohm C17-18=100nF 100V F1=0.2A slow 
+R7=470ohm  1W BR1=4 X 1N5408 F2=0.1A fast 
+TR1-2=4.7Kohm trimmer BR2=4 X 1N5408 S1= Switch 2X2 10Aac 
+C1=33nF 630V BR3=4 X 1N4007 RL7=12Vdc Relay 2X2 10A 
+C2.....5=2X50uF >350V D1.....7=1N4007 EMI RF Filter 230Vac/6A 
+C6=4700uF 25V D8=12V 0.5W zener * with heatsink 
+C7-9=100nF 100V IC1-2=LM317* 
+
+Input Selector - Delay Drive
+R1.....5=1.2Kohm C2=10uF 25V Q1-2=BD679 
+R6-8=1Mohm C3=22uF 25V IC1=4081 
+R7-9=10Kohm D1......5=3mm Red LED S2=SEL 1X6 step 
+R10-11=1.2Kohm D6......9=1N4148 S3=1X2 mini switch 
+C1=100nF 100V D10-11=3mm Green LED 
+

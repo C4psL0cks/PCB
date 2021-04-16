@@ -1,0 +1,5 @@
+U1 NE555 timer IC 
+R1 1k resistor 
+R2 50k potentiometer 
+C1 0.1uF ceramic capacitor 
+C2 10uf tantalum capacitor 
